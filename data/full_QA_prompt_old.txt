@@ -1,0 +1,34 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+<copy paste entire all_documentation.txt file here>
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+This was the whole documentation of my repository. I want to create a fine-tuning dataset for an LLM tutorial.
+Go through every file mentioned above and create 4 text based and 4 multiple choice questions for each file.
+Create a JSON output file with the following entries as a list:
+# For MCQ questions:
+{
+    "file": "orange3-doc-visual-programming/source/widgets/unsupervised/manifoldlearning.md"
+    "type": "MCQ",
+    "question": "Which of the following methods is not supported by Manifold Learning widget?"
+    "A": "MDS",
+    "B": "Isomap",
+    "C": "PCA",
+    "D": "t-SNE",
+    "correct": "C"
+}
+
+# For text-based questions:
+{
+    "file": "orange3-timeseries/doc/scripting.rst",
+    "type": "QA"
+    "question": "How can missing values in a time series be filled using Orange3-Timeseries?"
+    "answer": "You can compute periodicity using the periodogram function. For example: periods, pgram_values = periodogram(data.Y, detrend='diff'). This returns the dominant periods in the time series, such as 6 and 12 months for the airpassengers dataset."
+}
+
+
+Different files are separated as : === orange3-addons/README.txt ===
+If any of the files in the data does not have enough information to form sufficient number of quesions, you can make less questions, or skip the file entirely. Keep questions relevant and make sure we have enough of them, so 1000+
+
+Make sure that the questions you pose are self contained! They should include all the relevant information to answer the question without additional context outside of the question. For example, "What are inputs to the widget?" is not self contained, while "What are the inputs to the Extract Keywords widget?" is self contained.
+
+Now, generate the JSON file with a list of questions.
