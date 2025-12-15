@@ -1,0 +1,3202 @@
+[
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: File --> Pivot Table\nB: Filter --> t-SNE\nC: Distances --> Select Columns\nD: ARIMA Model --> Line Chart\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: File -x-> Tree Viewer\nB: Word Cloud -x-> Predictions\nC: Moving Transform -x-> Spiralogram\nD: Confusion Matrix -x-> Predictions\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Pivot Table --> Bar Plot\nB: Distances --> Hierarchical Clustering\nC: Filter --> Test and Score\nD: As Timeseries --> Correlogram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Distances -x-> Distance Matrix\nB: Differential Expression -x-> Test and Score\nC: k-Means -x-> Score Cells\nD: ARIMA Model -x-> Model Evaluation\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: File -x-> Rank\nB: Test and Score -x-> Preprocess\nC: Tree -x-> Save Model\nD: Yahoo Finance -x-> Moving Transform\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Differential Expression --> Test and Score\nB: File --> Distance Map\nC: Score Cells --> Scatter Plot\nD: Random Forest --> Nomogram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Tree Viewer -x-> Predictions\nB: Corpus -x-> Bag of Words\nC: Rank -x-> Select Columns\nD: Distances -x-> Distance Matrix\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: File --> Moving Transform\nB: Data Table --> Select Columns\nC: As Timeseries --> Word Cloud\nD: Test and Score --> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Distances --> Topic Modelling\nB: Logistic Regression --> Tree Viewer\nC: As Timeseries --> ARIMA Model\nD: Bag of Words --> Corpus Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Filter -x-> t-SNE\nB: Distances -x-> Random Forest\nC: Bag of Words -x-> Corpus Viewer\nD: Distances -x-> Filter\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Bag of Words --> Preprocess Text\nB: Distances --> Bag of Words\nC: Learner --> Merge Data\nD: Topic Modelling --> Word Cloud\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Tree Viewer --> Score Cells\nB: Test and Score --> Distances\nC: Save Model --> Distances\nD: Confusion Matrix --> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Corpus -x-> Hierarchical Clustering\nB: Preprocess -x-> Data Table\nC: Score Cells -x-> Hierarchical Clustering\nD: kNN -x-> Nomogram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Single Cell Datasets -x-> Single Cell Preprocess\nB: Moving Transform -x-> Data Table\nC: Differential Expression -x-> Heat Map\nD: As Timeseries -x-> Word Cloud\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Naive Bayes --> Test and Score\nB: Data Table --> Distances\nC: Data Table --> Hierarchical Clustering\nD: File --> Select Columns\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Corpus -x-> Preprocess\nB: Select Columns -x-> Distance Map\nC: Test and Score -x-> Tree Viewer\nD: Save Model -x-> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Rank --> Distances\nB: Test and Score --> Calibration Plot\nC: Test and Score --> Tree Viewer\nD: Wikipedia --> Word Cloud\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Distances -x-> Distance Map\nB: Score Cells -x-> Scatter Plot\nC: Select Columns -x-> Preprocess\nD: kNN -x-> Nomogram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Distance Matrix --> Preprocess\nB: Differential Expression --> Data Table\nC: Hierarchical Clustering --> Random Forest\nD: Data Table --> GEO Data Sets\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Save Model -x-> Distances\nB: Rank -x-> Select Columns\nC: Moving Transform -x-> Line Chart\nD: Test and Score -x-> Confusion Matrix\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Linear Regression --> Rank\nB: Distances --> As Timeseries\nC: Single Cell Datasets --> Confusion Matrix\nD: Word Cloud --> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Evaluation Results --> Select Columns\nB: File --> Distance Map\nC: Data Table --> Scatter Plot\nD: Distances --> Corpus\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Yahoo Finance --> ARIMA Model\nB: Excel File Import --> Corpus\nC: Data Table --> As Timeseries\nD: Data Table --> GEO Data Sets\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Tree Viewer --> Scatter Plot\nB: Wikipedia --> Bag of Words\nC: As Timeseries --> ARIMA Model\nD: Distances --> Line Chart\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: File --> Distance Map\nB: Select Rows --> Venn Diagram\nC: Distance Matrix --> Preprocess\nD: File --> GEO Data Sets\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Distances --> Merge Data\nB: File --> Rank\nC: CSV File Import --> Corpus\nD: Preprocess Text --> Word Cloud\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Scatter Plot --> Select by Data Index\nB: Nomogram --> Test and Score\nC: Distances --> Save Model\nD: Line Chart --> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Preprocess --> Distance Map\nB: Wikipedia --> Bag of Words\nC: Word Cloud --> Predictions\nD: Distances --> Bag of Words\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Distances --> Tree Viewer\nB: Bag of Words --> Word Enrichment\nC: Confusion Matrix --> Venn Diagram\nD: As Timeseries --> Moving Transform\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: File -x-> ROC Analysis\nB: Corpus -x-> Bag of Words\nC: Excel File Import -x-> Corpus\nD: File -x-> Preprocess\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Score Cells --> t-SNE\nB: Preprocess Text --> Bag of Words\nC: Line Chart --> Confusion Matrix\nD: Scatter Plot --> Save Data\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Word Cloud --> Concordance\nB: Distances --> Differential Expression\nC: Confusion Matrix --> Distances\nD: Random Forest --> ARIMA Model\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: File -x-> Tree Viewer\nB: Confusion Matrix -x-> Venn Diagram\nC: File -x-> Hierarchical Clustering\nD: Filter -x-> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Data Table -x-> Pivot Table\nB: Confusion Matrix -x-> Predictions\nC: As Timeseries -x-> Tree Viewer\nD: File -x-> Save Model\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Distances --> Differential Expression\nB: File --> GEO Data Sets\nC: Distances --> Venn Diagram\nD: As Timeseries --> ARIMA Model\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Distances --> Random Forest\nB: As Timeseries --> Line Chart\nC: Test and Score --> Calibration Plot\nD: Bag of Words --> Distances\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Differential Expression --> Test and Score\nB: Filter --> Test and Score\nC: Preprocess --> Bag of Words\nD: Word Cloud --> Predictions\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Preprocess -x-> Tree Viewer\nB: As Timeseries -x-> ARIMA Model\nC: Random Forest -x-> Nomogram\nD: Data Table -x-> Hierarchical Clustering\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Random Forest --> Bag of Words\nB: Nomogram --> Test and Score\nC: Guardian --> Bag of Words\nD: Confusion Matrix --> Distances\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Confusion Matrix -x-> Scatter Plot\nB: Hierarchical Clustering -x-> Scatter Plot\nC: Word Cloud -x-> Corpus Viewer\nD: Preprocess -x-> Venn Diagram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Select Columns -x-> Learner\nB: File -x-> Hierarchical Clustering\nC: Venn Diagram -x-> Test and Score\nD: Evaluation Results -x-> Select Columns\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Preprocess -x-> Venn Diagram\nB: GEO Data Sets -x-> Differential Expression\nC: Rank -x-> Test and Score\nD: Distances -x-> Venn Diagram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Linear Regression -x-> Rank\nB: Moving Transform -x-> Line Chart\nC: Preprocess Text -x-> Topic Modelling\nD: Distances -x-> Venn Diagram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: File -x-> Moving Transform\nB: File -x-> As Timeseries\nC: Distances -x-> Bag of Words\nD: Distances -x-> Logistic Regression\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: File -x-> Nomogram\nB: File -x-> Distances\nC: File -x-> Single Cell Datasets\nD: Logistic Regression -x-> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Excel File Import --> Corpus\nB: File --> Save Model\nC: Corpus --> Tree Viewer\nD: Differential Expression --> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Single Cell Datasets -x-> Confusion Matrix\nB: Rank -x-> Predictions\nC: Yahoo Finance -x-> As Timeseries\nD: Preprocess -x-> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: File -x-> Merge Data\nB: Select Columns -x-> Preprocess\nC: Corpus -x-> Bag of Words\nD: Topic Modelling -x-> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: File -x-> GEO Data Sets\nB: Save Model -x-> Test and Score\nC: File -x-> Data Table\nD: Distance Matrix -x-> Preprocess\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: GEO Data Sets -x-> Confusion Matrix\nB: File -x-> GEO Data Sets\nC: Corpus -x-> Hierarchical Clustering\nD: Scatter Plot -x-> Venn Diagram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Test and Score -x-> Scatter Plot\nB: Genes -x-> Differential Expression\nC: Preprocess -x-> Distance Map\nD: Scatter Plot -x-> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Confusion Matrix --> Save Model\nB: Corpus --> Tree Viewer\nC: Test and Score --> Save Model\nD: Preprocess --> PCA\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: File --> Tree Viewer\nB: Distances --> Differential Expression\nC: Distances --> Distance Map\nD: Test and Score --> Preprocess\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Venn Diagram --> Test and Score\nB: Distance Transformation --> Hierarchical Clustering\nC: Test and Score --> Confusion Matrix\nD: Moving Transform --> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Preprocess --> Bag of Words\nB: Filter --> Single Cell Preprocess\nC: Score Cells --> Hierarchical Clustering\nD: Select Columns --> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: File --> GEO Data Sets\nB: Tree Viewer --> Score Cells\nC: Distances --> As Timeseries\nD: Single Cell Datasets --> Filter\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Corpus -x-> Bag of Words\nB: Tree Viewer -x-> Predictions\nC: Distances -x-> Filter\nD: File -x-> Nomogram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Tree Viewer --> Data Table\nB: Test and Score --> Bag of Words\nC: Linear Regression --> Rank\nD: Test and Score --> Confusion Matrix\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Data Table --> Topic Modelling\nB: File --> Distances\nC: Moving Transform --> Line Chart\nD: Test and Score --> Performance Curve\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Single Cell Datasets --> Distances\nB: Distances --> Scatter Plot\nC: As Timeseries --> Line Chart\nD: ARIMA Model --> Line Chart\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Tree -x-> Save Model\nB: Distances -x-> Nomogram\nC: Data Table -x-> Topic Modelling\nD: Tree Viewer -x-> Rank\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Difference -x-> Line Chart\nB: ARIMA Model -x-> Line Chart\nC: Distances -x-> ARIMA Model\nD: Single Cell Datasets -x-> Score Cells\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Tree Viewer -x-> Scatter Plot\nB: File -x-> Preprocess\nC: As Timeseries -x-> ARIMA Model\nD: Confusion Matrix -x-> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: dictyExpress --> Differential Expression\nB: Single Cell Datasets --> Confusion Matrix\nC: Preprocess --> Venn Diagram\nD: Word Cloud --> Predictions\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Distances --> Nomogram\nB: Rank --> Predictions\nC: As Timeseries --> Tree Viewer\nD: Rank --> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Test and Score -x-> Distances\nB: Select Columns -x-> Test and Score\nC: Distances -x-> Nomogram\nD: Data Table -x-> GEO Data Sets\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Corpus -x-> Topic Modelling\nB: File -x-> Tree Viewer\nC: Topic Modelling -x-> Tree Viewer\nD: File -x-> Save Model\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Distances --> Confusion Matrix\nB: Data Table --> Save Model\nC: GEO Data Sets --> PCA\nD: Word Cloud --> Predictions\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Learner -x-> Scatter Plot\nB: As Timeseries -x-> ARIMA Model\nC: Word Cloud -x-> Tree Viewer\nD: Moving Transform -x-> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Random Forest -x-> Distances\nB: Save Model -x-> Scatter Plot\nC: Distance File -x-> Hierarchical Clustering\nD: Save Model -x-> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Distances -x-> Preprocess\nB: File -x-> Line Chart\nC: kNN -x-> Nomogram\nD: Yahoo Finance -x-> ARIMA Model\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Predictions -x-> Confusion Matrix\nB: Corpus -x-> Topic Modelling\nC: Distances -x-> Line Chart\nD: As Timeseries -x-> Line Chart\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Tree Viewer -x-> Test and Score\nB: Logistic Regression -x-> Test and Score\nC: GEO Data Sets -x-> Differential Expression\nD: Venn Diagram -x-> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Tree --> Nomogram\nB: File --> Confusion Matrix\nC: Preprocess --> Logistic Regression\nD: Hierarchical Clustering --> Random Forest\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: File -x-> Tree Viewer\nB: Corpus -x-> Hierarchical Clustering\nC: File -x-> Moving Transform\nD: Confusion Matrix -x-> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Confusion Matrix -x-> Save Model\nB: Preprocess Text -x-> Word Cloud\nC: Filter -x-> Test and Score\nD: Distances -x-> Bag of Words\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Save Model --> Test and Score\nB: Distance Matrix --> Preprocess\nC: Single Cell Datasets --> Filter\nD: Tree Viewer --> Predictions\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Nomogram --> Test and Score\nB: Tree Viewer --> Test and Score\nC: Distances --> Logistic Regression\nD: Rank --> Box Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Naive Bayes --> Nomogram\nB: Logistic Regression --> Rank\nC: Random Forest --> ARIMA Model\nD: File --> Distances\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Distance Matrix -x-> Preprocess\nB: Nomogram -x-> Select Columns\nC: Data Table -x-> Rank\nD: File -x-> Preprocess\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Distances -x-> Pivot Table\nB: Preprocess -x-> PCA\nC: Distances -x-> Data Table\nD: Evaluation Results -x-> Preprocess\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: MDS -x-> Scatter Plot\nB: ARIMA Model -x-> Line Chart\nC: File -x-> Hierarchical Clustering\nD: t-SNE -x-> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Data Table --> Topic Modelling\nB: Test and Score --> Scatter Plot\nC: Bag of Words --> Word Enrichment\nD: Confusion Matrix --> Distances\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Topic Modelling -x-> Test and Score\nB: Tree Viewer -x-> Rank\nC: File -x-> Confusion Matrix\nD: Confusion Matrix -x-> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Distances --> Pivot Table\nB: Distances --> Topic Modelling\nC: Corpus --> Topic Modelling\nD: Distances --> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Test and Score -x-> Scatter Plot\nB: Predictions -x-> Confusion Matrix\nC: Merge Data -x-> Test and Score\nD: File -x-> Save Model\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Random Forest --> Word Cloud\nB: Distances --> Pivot Table\nC: GEO Data Sets --> Box Plot\nD: Data Table --> Hierarchical Clustering\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Wikipedia --> Bag of Words\nB: Bag of Words --> Topic Modelling\nC: Confusion Matrix --> Distances\nD: Preprocess --> Bag of Words\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Hierarchical Clustering -x-> Scatter Plot\nB: Line Chart -x-> Save Data\nC: Corpus -x-> Word Cloud\nD: GEO Data Sets -x-> Confusion Matrix\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Data Table -x-> As Timeseries\nB: Single Cell Datasets -x-> Tree Viewer\nC: Merge Data -x-> Test and Score\nD: Moving Transform -x-> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Moving Transform --> Tree Viewer\nB: Score Cells --> Data Table\nC: Single Cell Datasets --> Data Table\nD: Tree Viewer --> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Preprocess -x-> Test and Score\nB: Random Forest -x-> ARIMA Model\nC: Distances -x-> Score Cells\nD: Confusion Matrix -x-> Distances\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Data Table --> GEO Data Sets\nB: File --> Line Chart\nC: Differential Expression --> Heat Map\nD: Distances --> Word Cloud\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Tree Viewer --> Rank\nB: Data Table --> Score Cells\nC: File --> Rank\nD: t-SNE --> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Topic Modelling -x-> MDS\nB: Random Forest -x-> Save Model\nC: Distances -x-> Scatter Plot\nD: GEO Data Sets -x-> Differential Expression\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Evaluation Results -x-> Random Forest\nB: Data Table -x-> Select Columns\nC: Preprocess -x-> Tree Viewer\nD: Test and Score -x-> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Distances --> Differential Expression\nB: Yahoo Finance --> As Timeseries\nC: Merge Data --> Save Data\nD: Pivot Table --> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Distances -x-> Scatter Plot\nB: Word Cloud -x-> Corpus Viewer\nC: Tree -x-> Nomogram\nD: Distances -x-> Corpus\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Naive Bayes -x-> Hierarchical Clustering\nB: Select Columns -x-> Preprocess\nC: Topic Modelling -x-> Test and Score\nD: Learner -x-> Merge Data\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Random Forest -x-> Nomogram\nB: Differential Expression -x-> GO Browser\nC: Preprocess -x-> Random Forest\nD: Rank -x-> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Test and Score -x-> Distances\nB: Data Table -x-> GEO Data Sets\nC: Differential Expression -x-> Test and Score\nD: Rank -x-> Box Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Corpus -x-> Word Cloud\nB: Distance File -x-> Hierarchical Clustering\nC: Distances -x-> Hierarchical Clustering\nD: Tree Viewer -x-> Rank\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Filter --> Single Cell Preprocess\nB: Preprocess --> Venn Diagram\nC: Scatter Plot --> Test and Score\nD: Corpus --> Distance Map\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Distances -x-> Tree Viewer\nB: Single Cell Datasets -x-> Filter\nC: Preprocess -x-> Tree Viewer\nD: Line Chart -x-> Confusion Matrix\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Tree -x-> Save Model\nB: File -x-> GEO Data Sets\nC: Data Table -x-> Pivot Table\nD: File -x-> Rank\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Rank -x-> Save Model\nB: Differential Expression -x-> Volcano Plot\nC: Random Forest -x-> Test and Score\nD: Select Columns -x-> Preprocess\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Yahoo Finance --> Line Chart\nB: Bag of Words --> Corpus Viewer\nC: Distances --> Word Cloud\nD: Learner --> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Differential Expression -x-> Test and Score\nB: Word Cloud -x-> Tree Viewer\nC: Distances -x-> Line Chart\nD: Distances -x-> Duplicate Detection\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Random Forest -x-> Bag of Words\nB: Line Chart -x-> Data Table\nC: GEO Data Sets -x-> Confusion Matrix\nD: File -x-> Topic Modelling\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Line Chart --> Save Data\nB: Single Cell Datasets --> Tree Viewer\nC: Line Chart --> Data Table\nD: Data Table --> Select Columns\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Word Cloud -x-> Test and Score\nB: Random Forest -x-> Bag of Words\nC: As Timeseries -x-> Word Cloud\nD: As Timeseries -x-> Moving Transform\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Word Cloud -x-> Concordance\nB: Test and Score -x-> Tree Viewer\nC: Excel File Import -x-> Corpus\nD: Bag of Words -x-> Distances\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Confusion Matrix --> Corpus Viewer\nB: Tree Viewer --> Scatter Plot\nC: Scatter Plot --> Select by Data Index\nD: Random Forest --> Word Cloud\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Corpus -x-> Bag of Words\nB: Test and Score -x-> Save Model\nC: Distances -x-> Select Columns\nD: Distances -x-> Confusion Matrix\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Preprocess --> Data Table\nB: Rank --> Random Forest\nC: Word Cloud --> Test and Score\nD: Differential Expression --> Volcano Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Random Forest -x-> Word Cloud\nB: GEO Data Sets -x-> Tree Viewer\nC: Select Columns -x-> Data Table\nD: Rank -x-> Predictions\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Confusion Matrix -x-> Corpus Viewer\nB: Score Cells -x-> Scatter Plot\nC: Distances -x-> Save Model\nD: Venn Diagram -x-> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Word Cloud --> Predictions\nB: Data Table --> Venn Diagram\nC: Distances --> Duplicate Detection\nD: Naive Bayes --> Save Model\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Learner -x-> Corpus\nB: ARIMA Model -x-> Model Evaluation\nC: Distances -x-> Filter\nD: Single Cell Datasets -x-> Confusion Matrix\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Distances --> Word Cloud\nB: Distances --> ARIMA Model\nC: File --> ARIMA Model\nD: ARIMA Model --> Model Evaluation\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Distances --> Filter\nB: Genes --> Differential Expression\nC: Line Chart --> Confusion Matrix\nD: Distances --> Moving Transform\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: GEO Data Sets --> Tree Viewer\nB: Distances --> Confusion Matrix\nC: Moving Transform --> Line Chart\nD: Random Forest --> ARIMA Model\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Hierarchical Clustering --> Box Plot\nB: File --> ARIMA Model\nC: Distances --> Tree Viewer\nD: Distances --> Word Cloud\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Random Forest --> Word Cloud\nB: Wikipedia --> Word Cloud\nC: Test and Score --> Bag of Words\nD: Corpus --> Distance Map\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Naive Bayes --> Save Model\nB: GEO Data Sets --> Box Plot\nC: Predictions --> Confusion Matrix\nD: Distances --> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: As Timeseries --> Line Chart\nB: Random Forest --> Word Cloud\nC: As Timeseries --> Word Cloud\nD: Word Cloud --> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Preprocess Text --> Bag of Words\nB: Genes --> Differential Expression\nC: Learner --> As Timeseries\nD: Hierarchical Clustering --> Box Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Topic Modelling -x-> Word Cloud\nB: Random Forest -x-> Scatter Plot\nC: File -x-> Scatter Plot\nD: Corpus -x-> Word Cloud\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Save Model --> Scatter Plot\nB: Distances --> Random Forest\nC: VAR Model --> Line Chart\nD: Evaluation Results --> Preprocess\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Score Cells -x-> Hierarchical Clustering\nB: Save Model -x-> Distances\nC: As Timeseries -x-> Periodogram\nD: Hierarchical Clustering -x-> MDS\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Corpus -x-> Hierarchical Clustering\nB: Random Forest -x-> Scatter Plot\nC: Save Model -x-> Scatter Plot\nD: Bag of Words -x-> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Single Cell Datasets -x-> Single Cell Preprocess\nB: Pivot Table -x-> Tree Viewer\nC: Tree Viewer -x-> Scatter Plot\nD: Differential Expression -x-> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: ARIMA Model --> Scatter Plot\nB: GEO Data Sets --> Confusion Matrix\nC: Confusion Matrix --> Predictions\nD: Preprocess --> Random Forest\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Pivot Table --> Line Plot\nB: Word Cloud --> Save Data\nC: File --> Differential Expression\nD: Select Columns --> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Filter -x-> PCA\nB: File -x-> Hierarchical Clustering\nC: Save Model -x-> Test and Score\nD: Merge Data -x-> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Logistic Regression -x-> Tree Viewer\nB: Tree Viewer -x-> Score Cells\nC: GEO Data Sets -x-> Genes\nD: kNN -x-> Nomogram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: File -x-> Scatter Plot\nB: Corpus -x-> Hierarchical Clustering\nC: Tree Viewer -x-> Scatter Plot\nD: Select Columns -x-> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: File --> ROC Analysis\nB: Differential Expression --> Volcano Plot\nC: Nomogram --> Test and Score\nD: Distances --> ARIMA Model\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Corpus --> Hierarchical Clustering\nB: Rank --> Save Model\nC: Corpus --> Hierarchical Clustering\nD: Corpus --> Bag of Words\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Data Table --> GEO Data Sets\nB: File --> Hierarchical Clustering\nC: As Timeseries --> Correlogram\nD: Moving Transform --> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Rank -x-> Save Model\nB: Distances -x-> Tree Viewer\nC: Preprocess -x-> Bag of Words\nD: File -x-> Save Model\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Evaluation Results --> Rank\nB: Scatter Plot --> Tree Viewer\nC: SVM --> Tree Viewer\nD: Difference --> Line Chart\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Data Table -x-> Preprocess\nB: File -x-> Select Columns\nC: Distances -x-> Tree Viewer\nD: Scatter Plot -x-> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Distances -x-> Topic Modelling\nB: Preprocess -x-> PCA\nC: Confusion Matrix -x-> Scatter Plot\nD: PCA -x-> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Rank --> Test and Score\nB: File --> Distance Map\nC: Merge Data --> Scatter Plot\nD: Distances --> Differential Expression\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: File -x-> Nomogram\nB: Scatter Plot -x-> Tree Viewer\nC: Test and Score -x-> Preprocess\nD: Corpus -x-> Word Cloud\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Preprocess -x-> Logistic Regression\nB: Naive Bayes -x-> Hierarchical Clustering\nC: Corpus -x-> Hierarchical Clustering\nD: File -x-> Hierarchical Clustering\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: As Timeseries --> Line Chart\nB: Single Cell Datasets --> Single Cell Preprocess\nC: Scatter Plot --> Test and Score\nD: Venn Diagram --> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Word Cloud -x-> Test and Score\nB: File -x-> ARIMA Model\nC: Random Forest -x-> Hierarchical Clustering\nD: GEO Data Sets -x-> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: File --> Nomogram\nB: Nomogram --> Select Columns\nC: Tree Viewer --> Data Table\nD: Data Table --> Random Forest\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Preprocess Text --> Topic Modelling\nB: Distances --> Save Model\nC: Distances --> Differential Expression\nD: Distances --> As Timeseries\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Hierarchical Clustering --> Distance Map\nB: File --> Hierarchical Clustering\nC: Scatter Plot --> Merge Data\nD: File --> Word Cloud\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Data Sampler -x-> Test and Score\nB: Distances -x-> Scatter Plot\nC: Random Forest -x-> Line Chart\nD: Distances -x-> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Corpus --> Extract Keywords\nB: File --> Word Cloud\nC: Yahoo Finance --> ARIMA Model\nD: As Timeseries --> Line Chart\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Learner --> Merge Data\nB: Distances --> Word Cloud\nC: File --> Tree Viewer\nD: Tree Viewer --> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: NY Times --> Bag of Words\nB: Test and Score --> Scatter Plot\nC: Rank --> Distances\nD: Nomogram --> Select Columns\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: GEO Data Sets --> Differential Expression\nB: File --> Line Chart\nC: Distances --> Topic Modelling\nD: Tree Viewer --> Predictions\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Line Chart -x-> Save Data\nB: Select Columns -x-> Test and Score\nC: Bag of Words -x-> Distances\nD: Distances -x-> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Distances -x-> Tree Viewer\nB: File -x-> Random Forest\nC: Test and Score -x-> Bag of Words\nD: Evaluation Results -x-> Rank\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: ARIMA Model -x-> Scatter Plot\nB: Hierarchical Clustering -x-> Distance Map\nC: GEO Data Sets -x-> Tree Viewer\nD: As Timeseries -x-> Correlogram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Random Forest --> Scatter Plot\nB: Tree --> Nomogram\nC: Predictions --> Confusion Matrix\nD: Data Table --> GEO Data Sets\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Data Table --> Rank\nB: Score Cells --> Hierarchical Clustering\nC: Random Forest --> Bag of Words\nD: Rank --> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Select Columns --> Distance Map\nB: Tree Viewer --> Test and Score\nC: Confusion Matrix --> Distances\nD: Scatter Plot --> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Score Cells -x-> Scatter Plot\nB: Preprocess -x-> PCA\nC: Corpus -x-> Topic Modelling\nD: Distances -x-> Select Columns\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Differential Expression --> Volcano Plot\nB: Rank --> Select Columns\nC: Learner --> Venn Diagram\nD: Preprocess Text --> Word Cloud\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Test and Score -x-> Scatter Plot\nB: Data Table -x-> Confusion Matrix\nC: Scatter Plot -x-> Data Table\nD: Nomogram -x-> Test and Score\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Distances -x-> Preprocess\nB: Single Cell Datasets -x-> Score Cells\nC: Differential Expression -x-> Predictions\nD: Hierarchical Clustering -x-> Distance Map\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Tree Viewer --> Rank\nB: Random Forest --> Word Cloud\nC: File --> Corpus\nD: ARIMA Model --> Distances\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Preprocess Text -x-> Bag of Words\nB: Evaluation Results -x-> Rank\nC: Learner -x-> Pivot Table\nD: File -x-> Single Cell Datasets\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Filter -x-> Test and Score\nB: Distances -x-> Save Model\nC: File -x-> Merge Data\nD: GEO Data Sets -x-> Confusion Matrix\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Distances --> Line Chart\nB: File --> Moving Transform\nC: Single Cell Datasets --> Confusion Matrix\nD: Select Columns --> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Distances -x-> Logistic Regression\nB: Differential Expression -x-> Predictions\nC: Differential Expression -x-> Heat Map\nD: Moving Transform -x-> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Single Cell Datasets --> Filter\nB: Distances --> Tree Viewer\nC: Distances --> Distance Matrix\nD: As Timeseries --> Seasonal Adjustment\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Data Table -x-> GEO Data Sets\nB: Topic Modelling -x-> Test and Score\nC: Logistic Regression -x-> Test and Score\nD: Test and Score -x-> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Wikipedia --> Word Cloud\nB: Learner --> Pivot Table\nC: Moving Transform --> Line Chart\nD: Bag of Words --> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Select Columns -x-> Data Table\nB: File -x-> Differential Expression\nC: Random Forest -x-> Pythagorean Forest\nD: Preprocess -x-> Logistic Regression\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Test and Score -x-> Confusion Matrix\nB: File -x-> ARIMA Model\nC: Guardian -x-> Bag of Words\nD: File -x-> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: As Timeseries --> Word Cloud\nB: As Timeseries --> Moving Transform\nC: Random Forest --> Word Cloud\nD: Distances --> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: File --> Line Chart\nB: Random Forest --> Pythagorean Forest\nC: Corpus --> Tree Viewer\nD: File --> Hierarchical Clustering\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: File --> Distances\nB: File --> Select Columns\nC: Distances --> Preprocess\nD: Select Columns --> Learner\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Merge Data --> Save Data\nB: Confusion Matrix --> Venn Diagram\nC: Random Forest --> Nomogram\nD: Pivot Table --> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Learner -x-> Pivot Table\nB: Corpus -x-> Corpus Viewer\nC: File -x-> Rank\nD: PCA -x-> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Differential Expression --> Predictions\nB: Random Forest --> Test and Score\nC: Distances --> Nomogram\nD: Hierarchical Clustering --> MDS\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Hierarchical Clustering --> Distance Map\nB: Logistic Regression --> Nomogram\nC: Bag of Words --> Topic Modelling\nD: t-SNE --> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Confusion Matrix -x-> Save Model\nB: Corpus -x-> Tree Viewer\nC: Random Forest -x-> Predictions\nD: Random Forest -x-> Distances\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Single Cell Datasets --> Single Cell Preprocess\nB: Select Columns --> Distance Map\nC: File --> Corpus\nD: Preprocess --> Bag of Words\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Distances -x-> Scatter Plot\nB: Distances -x-> ARIMA Model\nC: Distances -x-> Rank\nD: Pivot Table -x-> Bar Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Data Table --> As Timeseries\nB: Tree --> Save Model\nC: Tree Viewer --> Data Table\nD: As Timeseries --> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: File -x-> Save Model\nB: Load Data -x-> Filter\nC: Moving Transform -x-> Tree Viewer\nD: Bag of Words -x-> Corpus Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Merge Data -x-> Save Data\nB: Distances -x-> Corpus\nC: Moving Transform -x-> Spiralogram\nD: Data Table -x-> Pivot Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Preprocess --> Distances\nB: Corpus --> Distance Map\nC: Data Table --> Random Forest\nD: Line Chart --> Data Table\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Wikipedia --> Bag of Words\nB: Distances --> Save Model\nC: File --> Corpus\nD: Random Forest --> Predictions\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Distances --> Topic Modelling\nB: Confusion Matrix --> Corpus Viewer\nC: Learner --> Venn Diagram\nD: ARIMA Model --> Distances\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Distances -x-> ARIMA Model\nB: Naive Bayes -x-> Hierarchical Clustering\nC: Test and Score -x-> Tree Viewer\nD: Preprocess Text -x-> Topic Modelling\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Data Table --> Pivot Table\nB: File --> ARIMA Model\nC: Data Table --> Hierarchical Clustering\nD: Random Forest --> Nomogram\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not a valid connection?\n\nAnswers:\nA: Confusion Matrix --> Corpus Viewer\nB: Rank --> Data Table\nC: Save Model --> Test and Score\nD: Venn Diagram --> Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is not an invalid connection?\n\nAnswers:\nA: Distance Transformation -x-> Hierarchical Clustering\nB: Distances -x-> Filter\nC: Test and Score -x-> Scatter Plot\nD: Word Cloud -x-> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Merge Data --> Test and Score\nB: ARIMA Model --> Scatter Plot\nC: Load Data --> Filter\nD: As Timeseries --> Tree Viewer\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is an invalid connection?\n\nAnswers:\nA: Preprocess Text -x-> Topic Modelling\nB: As Timeseries -x-> ARIMA Model\nC: Scatter Plot -x-> Venn Diagram\nD: File -x-> Moving Transform\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a valid connection?\n\nAnswers:\nA: Corpus --> Hierarchical Clustering\nB: Rank --> Select Columns\nC: Topic Modelling --> Tree Viewer\nD: Confusion Matrix --> Predictions\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    }
+]

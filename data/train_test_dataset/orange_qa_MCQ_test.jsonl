@@ -1,0 +1,3202 @@
+[
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you save the image of the painted data in the Paint Data widget?\n\nAnswers:\nA: Only as .jpg.\nB: No.\nC: Only as .bmp.\nD: Yes, as .svg or .png.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What must the input expression consist of in the Curve Fit widget?\n\nAnswers:\nA: A constant.\nB: A polynomial.\nC: A linear equation.\nD: At least one fitting parameter.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the CN2 Rule Viewer widget?\n\nAnswers:\nA: A decision tree\nB: Filtered Data (instances covered by selected rules)\nC: A confusion matrix\nD: A list of attributes\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you select features in Column Statistics to output a reduced dataset?\n\nAnswers:\nA: Only numeric features.\nB: Yes.\nC: Only categorical features.\nD: No.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the input 'Base Learner' in the Calibrated Learner widget?\n\nAnswers:\nA: The dataset to learn from.\nB: The calibration method.\nC: The evaluation results.\nD: The learner to calibrate.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which variable holds the input dataset in the Python Script widget?\n\nAnswers:\nA: data\nB: in_data\nC: dataset\nD: input_data\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens if rows cannot be matched in 'Concatenate tables' (outer join)?\n\nAnswers:\nA: Missing values will appear.\nB: They are removed.\nC: The widget errors out.\nD: They are duplicated.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the default number of topics for LSI and LDA in the widget?\n\nAnswers:\nA: 50\nB: 5\nC: 20\nD: 10\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which button brings up a detailed description of the rule induction algorithm in CN2 Rule Viewer?\n\nAnswers:\nA: Help\nB: Report\nC: Details\nD: Info\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the default loss function for regression in the SGD widget?\n\nAnswers:\nA: Squared Loss\nB: Hinge\nC: Huber\nD: Epsilon insensitive\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What are the two node types available in Corpus to Network?\n\nAnswers:\nA: Documents and Authors.\nB: Words and Sentences.\nC: Topics and Documents.\nD: Documents and Words (ngrams).\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What input does the Correlogram widget require?\n\nAnswers:\nA: Periodogram.\nB: Time series.\nC: Model.\nD: Forecast.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the Spatial Autocorrelation Scorer widget?\n\nAnswers:\nA: Data with scores.\nB: A map.\nC: Scorer (an instance of SpatialScorer).\nD: A report.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What outputs does the Corpus to Network widget provide?\n\nAnswers:\nA: Network and Node data.\nB: Corpus and Matrix.\nC: Graph and Table.\nD: Clusters and Items.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you set the number of forecast steps in the VAR Model widget?\n\nAnswers:\nA: Only to 1.\nB: Yes.\nC: No.\nD: Only to 10.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can the Corpus widget transform input data into a corpus?\n\nAnswers:\nA: Only if the data is already text.\nB: Only if the data is numeric.\nC: No.\nD: Yes, when data is provided to the input.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output format of the Melt widget?\n\nAnswers:\nA: A distance matrix.\nB: A narrow data table (row_id, variable, value triplets).\nC: A pivot table.\nD: A correlation matrix.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: How do you view details about a marker gene in the Marker Genes widget?\n\nAnswers:\nA: Hover over it.\nB: Double-click on it.\nC: Click on it to view info in the Description panel.\nD: Right-click on it.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which Python library code can Orange export for detailed plot customization?\n\nAnswers:\nA: Plotly\nB: Matplotlib\nC: Seaborn\nD: Bokeh\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the source of the data in GEO Data Sets?\n\nAnswers:\nA: Google Scholar.\nB: Twitter.\nC: NCBI Gene Expression Omnibus.\nD: Wikipedia.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which projection type in Linear Projection is available only for categorical target variables with at least three distinct values?\n\nAnswers:\nA: Principal Component Analysis\nB: Circular Placement\nC: Linear Discriminant Analysis\nD: FreeViz\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Does the GEO Data Sets widget store downloaded datasets locally?\n\nAnswers:\nA: No.\nB: Yes, for convenience.\nC: Only if small.\nD: Only if saved manually.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What preprocessing step is automatically applied to categorical variables in the PCA widget?\n\nAnswers:\nA: Label encoding\nB: One-hot-encoding\nC: Target encoding\nD: Frequency encoding\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the Local Outlier Factor measure?\n\nAnswers:\nA: The probability of the class.\nB: The variance of the data.\nC: The local density deviation of a given data point with respect to its neighbors.\nD: The distance to the center.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens if extensions are not installed on the server for PostgreSQL in SQL Table?\n\nAnswers:\nA: Only metadata is retrieved.\nB: The data will be downloaded locally.\nC: The widget crashes.\nD: The connection fails.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you use a custom dictionary in Sentiment Analysis?\n\nAnswers:\nA: Only for Slovenian.\nB: Yes, by uploading .txt files for positive and negative words.\nC: No.\nD: Only for English.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which information criterion is NOT available for optimization in the VAR Model widget?\n\nAnswers:\nA: RMSE\nB: HQIC\nC: BIC\nD: AIC\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'c' flag stand for in the header?\n\nAnswers:\nA: Categorical\nB: Character\nC: Class attribute\nD: Continuous\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you use a separate reference set in KEGG Pathways?\n\nAnswers:\nA: Yes, by ticking 'From signal'.\nB: Only if it is larger than the input.\nC: Only if it is from the same experiment.\nD: No.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does 'Dispersion' show for categorical features in Column Statistics?\n\nAnswers:\nA: Entropy.\nB: Range.\nC: Standard deviation.\nD: Variance.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the gray bar represent in the LDAvis plot?\n\nAnswers:\nA: The in-corpus probability of a given word.\nB: The lift.\nC: The relevance score.\nD: The word length.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which aggregation method is NOT available in Moving Transform?\n\nAnswers:\nA: Fourier Transform\nB: Exponential MA\nC: Cumulative product\nD: Harmonic mean\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Does Distance Transformation accept Data as input?\n\nAnswers:\nA: Only if numeric.\nB: Yes.\nC: No, only Distances.\nD: Only if categorical.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does 'Stack columns' do in the Distributions widget?\n\nAnswers:\nA: Displays one column per bin, colored by proportions of class values.\nB: Sorts columns by height.\nC: Stacks multiple variables on top of each other.\nD: Creates a 3D histogram.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Does Document Embedding work on n-grams other than words?\n\nAnswers:\nA: No.\nB: Only on characters.\nC: Only on sentences.\nD: Yes, but it gives best results if n-grams are words.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which parameter applies only to regression tasks in the standard SVM model?\n\nAnswers:\nA: Nu\nB: Epsilon\nC: Degree\nD: Cost (C)\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What option allows comparing the interior coloring with all instances in the Mosaic Display widget?\n\nAnswers:\nA: Compare with mean\nB: Compare with expected\nC: Compare with total\nD: Compare with subset\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which clustering method is used by default for clustering rows/columns in the Heat Map widget?\n\nAnswers:\nA: DBSCAN\nB: Spectral clustering\nC: k-Means\nD: Hierarchical clustering with Ward linkage\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is NOT a supported distance metric in the Neighbors widget?\n\nAnswers:\nA: Cosine\nB: Euclidean\nC: Manhattan\nD: Levenshtein\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you manually edit the ontology in the Ontology widget?\n\nAnswers:\nA: Yes, by dragging and dropping words.\nB: Only by editing the file.\nC: No.\nD: Only before generation.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you hide anchors inside a certain radius in FreeViz?\n\nAnswers:\nA: No.\nB: Yes, using the 'Hide radius' slider.\nC: Only if they are irrelevant.\nD: Only manually.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is plotted on the y-axis of the Volcano Plot?\n\nAnswers:\nA: Standard deviation.\nB: Fold change.\nC: Mean expression.\nD: Negative base 10 logarithm of p-value.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which kernel is NOT available in the SVM widget in Orange?\n\nAnswers:\nA: Polynomial\nB: Linear\nC: RBF\nD: Cosine\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you query NY Times articles from 1851?\n\nAnswers:\nA: Only from 2000.\nB: Only from 1900.\nC: No.\nD: Yes.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you calculate coefficients using PACF in the Correlogram widget?\n\nAnswers:\nA: Only for stationary series.\nB: No.\nC: Only for differenced series.\nD: Yes.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does PMI stand for in the context of the Collocations widget?\n\nAnswers:\nA: Primary Mutual Index\nB: Pointwise Mutual Information\nC: Partial Match Indicator\nD: Probabilistic Model Inference\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does 'Average word length' represent in the Statistics widget?\n\nAnswers:\nA: The median word length.\nB: The ratio between character count and the number of words.\nC: The total number of characters.\nD: The length of the longest word.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you use a learner for imputation in the Impute widget?\n\nAnswers:\nA: Only for classification.\nB: Only for regression.\nC: No.\nD: Yes, by connecting a learner to the 'Learner' input.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you fetch dividend data with Yahoo Finance?\n\nAnswers:\nA: Yes.\nB: Only for the last year.\nC: No.\nD: Only for US stocks.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the Single Sample Scoring widget?\n\nAnswers:\nA: A list of genes.\nB: A heatmap.\nC: Data set with enrichment scores.\nD: A pathway diagram.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens if 'Custom step size' is defined in Time Slice?\n\nAnswers:\nA: The slice moves by the specified step size.\nB: The slice size changes.\nC: The slice moves to the next frame without overlap.\nD: The playback stops.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'Mode' statistic show in Column Statistics?\n\nAnswers:\nA: The most common value.\nB: The middle value.\nC: The sum.\nD: The average value.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which option in Continuize removes non-binary categorical variables?\n\nAnswers:\nA: Remove categorical features\nB: One-hot encoding\nC: Remove if more than 2 values\nD: Treat as ordinal\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Does Single Cell Datasets require an internet connection to list datasets?\n\nAnswers:\nA: Yes, initially.\nB: Only for large datasets.\nC: No, it uses a local cache.\nD: No, datasets are pre-installed.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What information is displayed in the list of GEO data sets?\n\nAnswers:\nA: Author, date, journal.\nB: Gene sequence, protein structure.\nC: ID, title, organism, samples, features, genes, subsets, reference.\nD: File size, download speed.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is plotted on the x-axis of the Volcano Plot?\n\nAnswers:\nA: Binary logarithm of fold-change.\nB: Statistical significance.\nC: Sample index.\nD: Gene expression level.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the color blue indicate in a Sieve Diagram?\n\nAnswers:\nA: Negative deviation from independence.\nB: Positive deviation from independence (observed > expected).\nC: Zero deviation.\nD: Missing data.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can Select by Data Index retrieve original data from transformed data?\n\nAnswers:\nA: Only if data is small.\nB: Yes.\nC: Only if data is not shuffled.\nD: No.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens if you select data instances with low silhouette scores in the Silhouette Plot widget and send them to a Scatter Plot?\n\nAnswers:\nA: They will likely appear in the center of clusters.\nB: They will disappear.\nC: They will form a new cluster.\nD: They will likely appear on the borders between clusters.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What initialization method positions points along principal coordinate axes in MDS?\n\nAnswers:\nA: Spectral\nB: Linear\nC: Random\nD: PCA (Torgerson)\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the Randomize widget?\n\nAnswers:\nA: Randomized dataset.\nB: A report.\nC: A random number.\nD: A subset of data.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you select the proportion of the dataset to shuffle in the Randomize widget?\n\nAnswers:\nA: Only for attributes.\nB: Yes.\nC: Only for classes.\nD: No, it always shuffles 100%.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which widget is suggested as a 'See also' for Seasonal Adjustment?\n\nAnswers:\nA: Line Chart\nB: Periodogram\nC: Moving Transform\nD: ARIMA\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which regression metric in Test and Score measures the average of the squares of the errors?\n\nAnswers:\nA: R2\nB: RMSE\nC: MAE\nD: MSE\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you search for tweets by author in the Twitter widget?\n\nAnswers:\nA: Only if verified.\nB: Only if recent.\nC: Yes, by entering the handle in the query list.\nD: No.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you filter datasets in the Datasets widget?\n\nAnswers:\nA: Yes.\nB: No.\nC: Only by name.\nD: Only by size.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the Guardian widget?\n\nAnswers:\nA: A list of headlines.\nB: A summary.\nC: A sentiment analysis.\nD: A corpus of articles.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you select multiple gene sets in the Gene Set Enrichment widget?\n\nAnswers:\nA: Only if they are from the same database.\nB: Only one at a time.\nC: No.\nD: Yes, by ticking the checkbox next to the gene set name.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What preprocessing step is applied to categorical variables in Logistic Regression?\n\nAnswers:\nA: Continuization (one-hot-encoding)\nB: Label encoding\nC: Target encoding\nD: Frequency encoding\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'Update All' button do in Databases Update?\n\nAnswers:\nA: Updates the local file index.\nB: Updates all available databases from the serverfiles.\nC: Updates the operating system.\nD: Updates the widget software.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you use custom gene sets in Single Sample Scoring?\n\nAnswers:\nA: Only predefined sets.\nB: Only GO terms.\nC: Yes.\nD: No.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the Homologs widget?\n\nAnswers:\nA: Gene expression data.\nB: List of homologs.\nC: Sequence alignment.\nD: A phylogenetic tree.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which inversion type calculates max(X) - X?\n\nAnswers:\nA: 1 - X\nB: 1/X\nC: max(X) - X\nD: -X\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens if 'Normalize columns' is selected in the k-Means widget?\n\nAnswers:\nA: Columns are scaled to [0, 1].\nB: Columns are mean centered to 0 and standard deviation scaled to 1.\nC: Columns are normalized by sum.\nD: Columns are converted to normal distribution.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the default value range for zero-based transformation in Continuize?\n\nAnswers:\nA: 0 and 100\nB: -1.0 and 1.0\nC: 0.0 and 1.0\nD: 1 and 2\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: How is cross-validation performed in Model Evaluation?\n\nAnswers:\nA: Using stratified sampling.\nB: Using leave-one-out.\nC: Using time series cross-validation (rolling window).\nD: Using random sampling.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'Alpha' parameter represent in the Neural Network widget?\n\nAnswers:\nA: L2 penalty (regularization term)\nB: Momentum\nC: Batch size\nD: Learning rate\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What parameter must be set to define the season length in Seasonal Adjustment?\n\nAnswers:\nA: Window width.\nB: Lag.\nC: Order.\nD: Period (e.g., 12 for monthly data).\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which tokenizer in Preprocess Text keeps hashtags and emoticons?\n\nAnswers:\nA: Whitespace\nB: Tweet\nC: Word & Punctuation\nD: Regexp\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens when you select a part of the visualization in the Venn Diagram widget?\n\nAnswers:\nA: It calculates the correlation\nB: It merges the datasets\nC: It outputs the corresponding instances or features\nD: It deletes the data\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What inputs does the Permutation Plot widget require?\n\nAnswers:\nA: Data and Classifier\nB: Evaluation Results\nC: Data and Learner\nD: Test Data and Learner\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: In the Bar Plot example using heart-disease data, what does the 'diameter narrowing' variable define?\n\nAnswers:\nA: The age of the patient\nB: The cholesterol level\nC: Patients with heart disease (1) and those without (0)\nD: The gender\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: How many parallel charts can be displayed in Line Chart?\n\nAnswers:\nA: 10\nB: 1\nC: Unlimited\nD: Up to 5\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which order of differencing is available in the Difference widget?\n\nAnswers:\nA: First or second order.\nB: Third order.\nC: Any order.\nD: Fourth order.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you switch to a logarithmic y-axis in Line Chart?\n\nAnswers:\nA: Only for area charts.\nB: No.\nC: Yes.\nD: Only for x-axis.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you set values to random in the Create Instance widget?\n\nAnswers:\nA: Only for discrete variables.\nB: Yes, using the 'Random' button.\nC: No.\nD: Only for continuous variables.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does 'Count defined' aggregation do in the Pivot Table widget?\n\nAnswers:\nA: Counts unique values.\nB: Counts instances where the aggregation value is defined (not missing).\nC: Counts all instances.\nD: Counts zero values.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which scoring method in the Rank widget reduces the bias towards multivalued features?\n\nAnswers:\nA: Gain Ratio\nB: Chi2\nC: Gini\nD: Information Gain\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which format is used for storing preprocessing of Corpus objects in Save Data?\n\nAnswers:\nA: .xlsx\nB: .pkl\nC: .tab\nD: .csv\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does L2 regularization do in Bag of Words?\n\nAnswers:\nA: Removes rare words.\nB: Normalizes vector length to sum of elements.\nC: Normalizes vector length to sum of squares.\nD: Removes common words.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you filter marker genes in the Marker Genes widget?\n\nAnswers:\nA: No.\nB: Only by organism.\nC: Yes, using 'Filter marker genes'.\nD: Only by database.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which widget can load the matrix saved by Save Distance Matrix?\n\nAnswers:\nA: Distance File.\nB: Load Data.\nC: Import Documents.\nD: File.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Does the Word Cloud widget support default preprocessing?\n\nAnswers:\nA: Yes, it tokenizes by word and punctuation.\nB: Yes, it stems words.\nC: No.\nD: Yes, it removes stopwords only.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does 'Show pathways in full orthology' do in KEGG Pathways?\n\nAnswers:\nA: Shows only human pathways.\nB: Shows all pathways at once.\nC: Shows metabolic pathways only.\nD: Lists and displays pathways by vertical descent.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What are the outputs of the Align Datasets widget?\n\nAnswers:\nA: Aligned Data and Correlation Matrix.\nB: Data and Model.\nC: Report and Graph.\nD: Transformed Data and Genes per n. Components.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What input does Correspondence Analysis require?\n\nAnswers:\nA: Model.\nB: Distances.\nC: Learner.\nD: Data.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens if you click 'Apply' in the Stacking widget?\n\nAnswers:\nA: It opens a report.\nB: It commits the aggregated model (learner) to the output.\nC: It saves the model.\nD: It trains the model immediately.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens if 'Send Data Automatically' is ticked in Single Cell Datasets?\n\nAnswers:\nA: A report is generated.\nB: The selected dataset is automatically loaded and pushed to the output.\nC: The widget closes.\nD: The dataset is saved.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can the Tree widget handle both categorical and numeric datasets?\n\nAnswers:\nA: Only if converted.\nB: No, only categorical.\nC: No, only numeric.\nD: Yes.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the Distance File widget?\n\nAnswers:\nA: Corpus.\nB: Network.\nC: Data table.\nD: Distance matrix.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Where can you observe the effect of each variable from the PLS model?\n\nAnswers:\nA: In the Confusion Matrix.\nB: In the Tree Viewer.\nC: In a Data Table connected to the Coefficients output.\nD: In the Scatter Plot.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can the Linear Regression widget be used for classification tasks in Orange?\n\nAnswers:\nA: Yes, if the target is ordinal.\nB: Yes, for binary classification.\nC: No, it works only on regression tasks.\nD: Yes, for multi-class classification.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does 'As a distinct value' do in the Impute widget?\n\nAnswers:\nA: Replaces missing values with a specific value.\nB: Creates new features defining whether an instance had missing values.\nC: Removes the instance.\nD: Ignores the missing value.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is a normalization option in Distance Transformation?\n\nAnswers:\nA: Logarithmic\nB: To interval [0, 1]\nC: Exponential\nD: To interval [0, 100]\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which widget provides the necessary input signal for the Calibration Plot?\n\nAnswers:\nA: Confusion Matrix\nB: Test and Score or Predictions\nC: ROC Analysis\nD: Scatter Plot\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What output does the Louvain Clustering widget provide besides the data with cluster labels?\n\nAnswers:\nA: The weighted k-nearest neighbor graph (with the Network addon).\nB: A dendrogram.\nC: A scatter plot.\nD: A distance matrix.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can As Timeseries use continuous attributes as time?\n\nAnswers:\nA: Yes.\nB: No.\nC: Only discrete attributes.\nD: Only string attributes.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'Lexicon' filter do in Preprocess Text?\n\nAnswers:\nA: Keeps only words provided in a loaded file.\nB: Translates words.\nC: Corrects spelling based on a lexicon.\nD: Removes words provided in a loaded file.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you rename the output table in the Edit Domain widget?\n\nAnswers:\nA: No.\nB: Only if it has no name.\nC: Only if it is empty.\nD: Yes.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output 'Annotated data' in Select by Data Index?\n\nAnswers:\nA: The unmatched data.\nB: A report.\nC: The subset data.\nD: Reference data set with an additional column defining matches.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the Calibration Plot output when metrics like F1 are selected?\n\nAnswers:\nA: A model with the same probabilities but a different classification threshold\nB: A confusion matrix\nC: A dataset with new features\nD: A calibrated model with tuned probabilities\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the default name of the learner produced by the Naive Bayes widget?\n\nAnswers:\nA: NB Learner\nB: Bayesian Classifier\nC: Naive Bayes\nD: Probabilistic Learner\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What preprocessing does SVM apply to classification data by default?\n\nAnswers:\nA: None\nB: Discretizes continuous variables\nC: Normalizes dense and scales sparse data\nD: Removes outliers\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the Twitter widget?\n\nAnswers:\nA: A sentiment score.\nB: A corpus of tweets.\nC: A word cloud.\nD: A list of users.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which error measure is NOT calculated by the Model Evaluation widget?\n\nAnswers:\nA: RMSE\nB: Accuracy\nC: MAE\nD: MAPE\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'epsilon for DBSCAN' parameter control in Annotator?\n\nAnswers:\nA: The FDR threshold.\nB: The parameter of the DBSCAN algorithm which forms groups in the visualization.\nC: The size of the points.\nD: The transparency of the hull.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the Concatenate widget do if column names match but types don't?\n\nAnswers:\nA: It merges them anyway.\nB: It renames the column.\nC: It requires types to match or ignores names depending on settings.\nD: It deletes the column.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can PCA be used as a feature scorer in Orange?\n\nAnswers:\nA: Only for classification.\nB: Only for regression.\nC: Yes, by connecting it to the Rank widget.\nD: No.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: If 'include duplicates' is NOT selected in the Venn Diagram widget when matching by variable values, what is the output?\n\nAnswers:\nA: An empty set\nB: Only unique rows\nC: All rows including duplicates\nD: Only the intersection\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: How are discrete time series imputed in the Interpolate widget (unless 'nearest' is set)?\n\nAnswers:\nA: They are not imputed.\nB: With the mean.\nC: With linear interpolation.\nD: With the mode (most frequent value).\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Should you modify input objects in place in the Python Script widget?\n\nAnswers:\nA: Only if they are large.\nB: No, you should not modify input objects in place.\nC: Yes, it saves memory.\nD: Only if they are lists.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'Show pie charts' option do in the SOM widget?\n\nAnswers:\nA: Colors the background as a pie chart.\nB: Turns points into pie-charts showing class distribution.\nC: Shows a separate pie chart for the whole dataset.\nD: Shows the error rate as a pie chart.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you set the maximum number of iterations in the k-Means widget?\n\nAnswers:\nA: Only via Python script.\nB: Only if using random initialization.\nC: Yes, manually.\nD: No, it runs until convergence.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which attributes are not used in modeling but included in the dataset?\n\nAnswers:\nA: Target variable\nB: Ignored attributes\nC: Features\nD: Meta attributes\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the color represent by default in Spiralogram?\n\nAnswers:\nA: Mean value.\nB: Instance count.\nC: Sum.\nD: Variance.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: How can you override the default preprocessing in the kNN widget?\n\nAnswers:\nA: By changing settings in the File widget.\nB: You cannot override it.\nC: By connecting an empty Preprocess widget to the learner.\nD: By using the Rank widget.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: How do you add a new label to a feature in Edit Domain?\n\nAnswers:\nA: You cannot add labels.\nB: Using the + button in the Labels box.\nC: Right-click the feature.\nD: Double-click the feature name.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which of the following is listed as an official Orange3 add-on in OFFICIAL_ADDONS.txt?\n\nAnswers:\nA: Orange3-Robotics\nB: Orange3-DeepLearning\nC: Orange3-Text\nD: Orange3-Finance\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'i' prefix stand for in the file header?\n\nAnswers:\nA: Index\nB: Integer\nC: Ignore\nD: Input\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: How are groups defined in the Group By widget?\n\nAnswers:\nA: By manual selection.\nB: By clustering.\nC: By random assignment.\nD: By all distinct combinations of values in selected variables.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What input does the Granger Causality widget require?\n\nAnswers:\nA: Time series.\nB: A model.\nC: A forecast.\nD: Two separate data tables.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the Data Table widget do in a workflow?\n\nAnswers:\nA: Evaluates a model.\nB: Receives data and displays it.\nC: Loads data from a file.\nD: Trains a model.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: In regression predictions, what does the blue color indicate in the difference column?\n\nAnswers:\nA: Missing value\nB: Overestimation\nC: Exact match\nD: Underestimation (negative difference)\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Where are the tokens sent for vectorization in Document Embedding?\n\nAnswers:\nA: They are processed in memory without external data.\nB: To a server.\nC: To the GPU.\nD: To a local database.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'Stratified' option ensure in Cross-validation within the Test and Score widget?\n\nAnswers:\nA: That folds are of equal size.\nB: That folds are sorted by time.\nC: That folds are similar in terms of class distribution.\nD: That folds are randomized.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: How do you exponentiate in the Formula widget?\n\nAnswers:\nA: pow()\nB: ^\nC: exp()\nD: **\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'Keep aspect ratio' option do in the Heat Map widget?\n\nAnswers:\nA: It ensures the plot fits the window.\nB: It displays each value with a square (proportionate to the map).\nC: It prevents resizing the widget.\nD: It keeps the legend size constant.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Does the Wikipedia widget retrieve disambiguations?\n\nAnswers:\nA: Only for famous people.\nB: No.\nC: Only if requested.\nD: Yes, querying is done recursively.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What statistic is displayed in the plot statistics of Sieve Diagram?\n\nAnswers:\nA: F-statistic.\nB: T-statistic.\nC: Chi-square statistic.\nD: Z-score.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What transformation is available for node size in the Pythagorean Forest widget?\n\nAnswers:\nA: Exponential\nB: Logarithmic\nC: Inverse\nD: Linear only\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'r' value reported for the regression line correspond to?\n\nAnswers:\nA: R-squared.\nB: Slope.\nC: Pearson's correlation coefficient.\nD: Intercept.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What input does the Document Map widget require?\n\nAnswers:\nA: An image file.\nB: A list of coordinates.\nC: A corpus with a string attribute containing text or tags.\nD: A distance matrix.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: How can you filter results in the Gene Sets widget?\n\nAnswers:\nA: By limiting the number of mapped genes and searching for specific gene sets.\nB: By size.\nC: By date.\nD: By author.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you construct advanced queries in the PubMed widget?\n\nAnswers:\nA: Only via command line.\nB: No.\nC: Only via API.\nD: Yes.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which grid types are available in the SOM widget?\n\nAnswers:\nA: 3D grid.\nB: Triangular or circular grid.\nC: Hexagonal or square grid.\nD: Linear or radial grid.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does 'Show cluster hull' do in the Annotator widget?\n\nAnswers:\nA: Displays a concave hull around clusters.\nB: Connects clusters with lines.\nC: Shows the center of the cluster.\nD: Hides the points.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'Selection' box control in Differential Expression?\n\nAnswers:\nA: The visualization colors.\nB: The output data (thresholds, null distribution, best ranked).\nC: The target labels.\nD: The input data.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which sampling method in Test and Score uses the whole dataset for training and then for testing?\n\nAnswers:\nA: Random sampling\nB: Leave-one-out\nC: Cross-validation\nD: Test on train data\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the default behavior if 'Apply automatically' is ticked in Aggregate Columns?\n\nAnswers:\nA: You must click Apply.\nB: Changes are communicated automatically.\nC: The aggregation is saved.\nD: The widget closes.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Is the Split widget typically used with survey data?\n\nAnswers:\nA: Yes.\nB: Only for image data.\nC: Only for time series.\nD: No.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens if you check 'Stretch bars' in the Box Plot widget for discrete attributes?\n\nAnswers:\nA: It shows absolute values.\nB: It shows relative values (proportions) of data instances.\nC: It sorts the bars by height.\nD: It increases the width of the plot.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Does the CN2 Rule Induction widget work for regression tasks?\n\nAnswers:\nA: Yes, with specific settings\nB: Yes, if target is discretized\nC: Yes\nD: No, only for classification\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which calibration method uses Isotonic Regression?\n\nAnswers:\nA: Linear calibration\nB: Sigmoid calibration\nC: Isotonic calibration\nD: Polynomial calibration\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you use dynamic time warping in Align Datasets?\n\nAnswers:\nA: No.\nB: Only for time series.\nC: Yes, by ticking the box.\nD: Only for spatial data.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens if 'Commit automatically' is ticked in the Filter widget?\n\nAnswers:\nA: The widget closes.\nB: The data is saved.\nC: Changes are communicated automatically.\nD: A report is generated.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the Collocations widget?\n\nAnswers:\nA: A word cloud.\nB: A table of bigrams or trigrams.\nC: A network.\nD: A corpus.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the PubMed widget?\n\nAnswers:\nA: A PDF file.\nB: A corpus of documents.\nC: A web page.\nD: A list of citations.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens when you select rows in the Data Table widget?\n\nAnswers:\nA: They are deleted.\nB: They are hidden.\nC: They are sent to the widget's output channel.\nD: They are highlighted only.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does 'Invert differencing direction' do?\n\nAnswers:\nA: Computes products.\nB: Computes sums instead of differences.\nC: Computes ratios.\nD: Computes differences from latest to oldest.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which interpolation method replaces missing values with the previous defined value?\n\nAnswers:\nA: Linear\nB: Spline\nC: Nearest\nD: Mean\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can the Calibration Plot widget output a calibrated model for non-binary classes?\n\nAnswers:\nA: Yes, if using Sigmoid function\nB: Yes, for all classes\nC: No, only for binary classes\nD: Yes, if using Isotonic regression\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Under what condition will the ROC Analysis widget output a model with a new operating threshold?\n\nAnswers:\nA: If the AUC is above 0.9\nB: If input results come from a single data set (not CV), only a single curve is shown, and the performance line is displayed\nC: Always\nD: Never\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you visualize regression lines for individual class values in Scatter Plot?\n\nAnswers:\nA: Only if the regression line option is unchecked.\nB: Only for binary classes.\nC: Yes, if a categorical variable is selected for coloring.\nD: No.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you choose the organism for which to identify homologs in the Homologs widget?\n\nAnswers:\nA: Only if the input is yeast.\nB: Only if the input is mouse.\nC: Yes.\nD: No, it defaults to human.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does 'Jittering' do in the MDS widget?\n\nAnswers:\nA: Increases the stress.\nB: Changes the distance metric.\nC: Stops the optimization.\nD: Randomly scatters data points to prevent overlapping.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you browse for saved models in the Load Model widget?\n\nAnswers:\nA: Only from the examples.\nB: Only from the recent list.\nC: No, you must type the path.\nD: Yes, using the Browse icon.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which decision threshold optimization option in Calibrated Learner optimizes the F1 score?\n\nAnswers:\nA: Optimize AUC\nB: No threshold optimization\nC: Optimize F1 score\nD: Optimize classification accuracy\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which delimiter was used in the example with the Orange survey data in the Split widget documentation?\n\nAnswers:\nA: Semicolon\nB: Space\nC: Comma\nD: Tab\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Does Data Info show the number of meta attributes?\n\nAnswers:\nA: Only string metas.\nB: Yes.\nC: No.\nD: Only numeric metas.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the Single Cell Datasets widget?\n\nAnswers:\nA: A list of datasets.\nB: A graph.\nC: A single cell dataset containing cells and their gene expression or gene markers.\nD: A report.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can data with only numeric variables be displayed in the Pivot Table?\n\nAnswers:\nA: Yes, if transposed.\nB: Yes, if aggregated.\nC: No, it requires a discrete variable for column values.\nD: Yes.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Why is studying homologs useful?\n\nAnswers:\nA: It removes mutations.\nB: It sequences the genome.\nC: It provides insights into evolutionary relationships and gene function.\nD: It increases gene expression.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does 'Multi-variate interpolation' do?\n\nAnswers:\nA: Interpolates only multivariate data.\nB: Interpolates each series separately.\nC: Interpolates the whole series table as a two-dimensional plane.\nD: Interpolates using multiple methods.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the Silhouette score measure in the k-Means widget?\n\nAnswers:\nA: The average distance to elements in the same cluster contrasted with the average distance to elements in other clusters.\nB: The sum of squared errors.\nC: The computation time.\nD: The distance between cluster centers.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What indicates the 'best' tree in the Pythagorean Forest visualization?\n\nAnswers:\nA: The one with the largest root node\nB: The one with the most white nodes\nC: The one with the shortest and most strongly colored branches\nD: The one with the longest branches\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What types of regularization are supported by the Logistic Regression widget?\n\nAnswers:\nA: L1 and Elastic Net\nB: L1 (Lasso) and L2 (Ridge)\nC: L2 and Dropout\nD: None\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which method in the Outliers widget uses random forests for outlier detection?\n\nAnswers:\nA: Local Outlier Factor\nB: One Class SVM\nC: Isolation Forest\nD: Covariance Estimator\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: How are elements sorted in the Distance Map widget by default?\n\nAnswers:\nA: None (as found in dataset).\nB: Clustering (by similarity).\nC: Alphabetically.\nD: Randomly.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Does the Twitter widget allow collecting results over time?\n\nAnswers:\nA: Only for one day.\nB: No.\nC: Only for one hour.\nD: Yes, if 'Collect results' is ticked.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'Opacity' slider control in the Linear Projection widget?\n\nAnswers:\nA: The size of the points.\nB: The background color.\nC: The transparency of the points.\nD: The length of the axes.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'area' scale option do in the Violin Plot widget?\n\nAnswers:\nA: Makes each violin have the same area\nB: Makes each violin have the same width\nC: Removes the violin shape\nD: Scales width by count\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the 'Embedding' method in Extract Keywords use to score words?\n\nAnswers:\nA: Length of the word.\nB: Word frequency.\nC: Cosine distance to most documents computed on SBERT word embeddings.\nD: Position in the text.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you query Wikipedia in different languages?\n\nAnswers:\nA: No, only English.\nB: Only European languages.\nC: Yes.\nD: Only Asian languages.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: How do you execute the script in the Python Script widget via keyboard shortcut?\n\nAnswers:\nA: Ctrl+S\nB: Ctrl+Enter\nC: F5\nD: Ctrl+R\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: If the regression line in the Permutation Plot has a high intercept, what does it suggest?\n\nAnswers:\nA: The model is overfitted\nB: The model is underfitted\nC: The model is valid\nD: The data is random\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What happens if 'Send automatically' is ticked in the Bar Plot widget?\n\nAnswers:\nA: The widget closes\nB: Changes are communicated automatically to downstream widgets\nC: A report is generated\nD: The plot is saved\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can the Distance Matrix widget visualize distances between rows?\n\nAnswers:\nA: Only if transposed.\nB: Yes.\nC: Only for small datasets.\nD: No.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which widget is used to load a previously saved trained model in Orange?\n\nAnswers:\nA: Load Model\nB: Open Model\nC: Import Classifier\nD: Load Data\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does 'Replicable training' do in the Gradient Boosting widget?\n\nAnswers:\nA: It saves the model to a file.\nB: It trains the model twice.\nC: It allows exporting the model to Python.\nD: It fixes the random seed to enable reproducibility.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What are 'Meta attributes' in the context of the Select Columns widget?\n\nAnswers:\nA: Attributes included in the dataset but not used for learning/modeling.\nB: Attributes used for training the model.\nC: The target variable.\nD: Attributes that are removed from the dataset.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you select which series to calculate the periodogram for in the widget?\n\nAnswers:\nA: Yes.\nB: Only for the first series.\nC: Only for the last series.\nD: No, it calculates for all.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the input for the ROC Analysis widget?\n\nAnswers:\nA: Learner\nB: Evaluation Results\nC: Classifier\nD: Data\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Does the ARIMA Model widget support confidence intervals?\n\nAnswers:\nA: Only for ARIMAX.\nB: No.\nC: Yes.\nD: Only for ARMA.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the Wikipedia widget?\n\nAnswers:\nA: An image.\nB: A list of links.\nC: A corpus of documents.\nD: A summary.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What is the output of the Time Slice widget?\n\nAnswers:\nA: A plot.\nB: The entire time series.\nC: A model.\nD: Selected time slice (subset).\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the blue highlighted area represent in the Box Plot widget?\n\nAnswers:\nA: The values between the first and the third quartile (IQR).\nB: The standard deviation.\nC: The range between the minimum and maximum values.\nD: The confidence interval.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Which regularization method in Linear Regression minimizes a penalized version of the least squares loss function with an L1-norm penalty?\n\nAnswers:\nA: Elastic net\nB: Lasso\nC: Ridge\nD: None\n"
+            },
+            {
+                "role": "assistant",
+                "content": "B"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What input does the Score Cells widget require?\n\nAnswers:\nA: Data and Clusters.\nB: Data and Reference.\nC: Data and Genes (marker genes).\nD: Data and Model.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "C"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: What does the red line in the PCA scree plot represent?\n\nAnswers:\nA: Error rate.\nB: Eigenvalues.\nC: Cumulative variance.\nD: Variance covered per component.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "D"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that can answer questions about the Orange Data Mining software."
+            },
+            {
+                "role": "user",
+                "content": "Answer the following question based on your knowledge of the Orange Data Mining software.\nMake sure you answer the question with a single letter corresponding to the correct answer.\n\nQuestion: Can you reorder preprocessing steps in the Preprocess Text widget?\n\nAnswers:\nA: Yes, by dragging them.\nB: No.\nC: Only if you reset the widget.\nD: Only via Python script.\n"
+            },
+            {
+                "role": "assistant",
+                "content": "A"
+            }
+        ]
+    }
+]

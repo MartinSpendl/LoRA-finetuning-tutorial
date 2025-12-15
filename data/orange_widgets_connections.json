@@ -1,0 +1,665 @@
+[
+    {
+        "widget": "File",
+        "valid_inputs": [],
+        "invalid_inputs": [],
+        "valid_outputs": [
+            "Data Table",
+            "Scatter Plot",
+            "Distances",
+            "Preprocess",
+            "Select Columns",
+            "Rank",
+            "Corpus",
+            "As Timeseries"
+        ],
+        "invalid_outputs": [
+            "Hierarchical Clustering",
+            "Distance Map",
+            "Tree Viewer",
+            "Save Model",
+            "Confusion Matrix",
+            "ROC Analysis"
+        ]
+    },
+    {
+        "widget": "Distances",
+        "valid_inputs": [
+            "File",
+            "Data Table",
+            "Preprocess",
+            "Rank",
+            "Bag of Words",
+            "Single Cell Datasets"
+        ],
+        "invalid_inputs": [
+            "Save Model",
+            "Tree Viewer",
+            "Test and Score",
+            "Confusion Matrix"
+        ],
+        "valid_outputs": [
+            "Hierarchical Clustering",
+            "Distance Map",
+            "MDS",
+            "Distance Matrix",
+            "Duplicate Detection",
+            "Silhouette Plot"
+        ],
+        "invalid_outputs": [
+            "Scatter Plot",
+            "Data Table",
+            "Tree Viewer",
+            "Logistic Regression",
+            "Word Cloud"
+        ]
+    },
+    {
+        "widget": "Hierarchical Clustering",
+        "valid_inputs": [
+            "Distances",
+            "Distance File",
+            "Distance Transformation"
+        ],
+        "invalid_inputs": [
+            "File",
+            "Data Table",
+            "Corpus",
+            "Random Forest",
+            "Naive Bayes"
+        ],
+        "valid_outputs": [
+            "Scatter Plot",
+            "Data Table",
+            "Box Plot"
+        ],
+        "invalid_outputs": [
+            "Distance Map",
+            "MDS"
+        ]
+    },
+    {
+        "widget": "Random Forest",
+        "valid_inputs": [
+            "File",
+            "Data Table",
+            "Preprocess",
+            "Rank"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Hierarchical Clustering",
+            "Evaluation Results"
+        ],
+        "valid_outputs": [
+            "Test and Score",
+            "Predictions",
+            "Save Model",
+            "Pythagorean Forest"
+        ],
+        "invalid_outputs": [
+            "Distances",
+            "Scatter Plot",
+            "Word Cloud",
+            "Nomogram"
+        ]
+    },
+    {
+        "widget": "Test and Score",
+        "valid_inputs": [
+            "File",
+            "Data Sampler",
+            "Random Forest",
+            "Logistic Regression",
+            "Naive Bayes",
+            "SVM"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Save Model",
+            "Tree Viewer"
+        ],
+        "valid_outputs": [
+            "Confusion Matrix",
+            "ROC Analysis",
+            "Calibration Plot",
+            "Performance Curve"
+        ],
+        "invalid_outputs": [
+            "Scatter Plot",
+            "Tree Viewer",
+            "Distances"
+        ]
+    },
+    {
+        "widget": "Corpus",
+        "valid_inputs": [
+            "File",
+            "Excel File Import",
+            "CSV File Import"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Learner"
+        ],
+        "valid_outputs": [
+            "Corpus Viewer",
+            "Preprocess Text",
+            "Bag of Words",
+            "Word Cloud",
+            "Extract Keywords",
+            "Topic Modelling"
+        ],
+        "invalid_outputs": [
+            "Hierarchical Clustering",
+            "Distance Map",
+            "Tree Viewer"
+        ]
+    },
+    {
+        "widget": "Bag of Words",
+        "valid_inputs": [
+            "Corpus",
+            "Preprocess Text",
+            "Twitter",
+            "NY Times",
+            "Wikipedia",
+            "Guardian"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Random Forest",
+            "Test and Score"
+        ],
+        "valid_outputs": [
+            "Distances",
+            "Data Table",
+            "Select Columns",
+            "Word Enrichment"
+        ],
+        "invalid_outputs": [
+            "Preprocess Text",
+            "Corpus Viewer"
+        ]
+    },
+    {
+        "widget": "Tree Viewer",
+        "valid_inputs": [
+            "Tree",
+            "Pythagorean Forest"
+        ],
+        "invalid_inputs": [
+            "File",
+            "Distances",
+            "Naive Bayes",
+            "Logistic Regression",
+            "SVM"
+        ],
+        "valid_outputs": [
+            "Data Table",
+            "Scatter Plot"
+        ],
+        "invalid_outputs": [
+            "Test and Score",
+            "Predictions"
+        ]
+    },
+    {
+        "widget": "Nomogram",
+        "valid_inputs": [
+            "Naive Bayes",
+            "Logistic Regression"
+        ],
+        "invalid_inputs": [
+            "Random Forest",
+            "SVM",
+            "kNN",
+            "Tree",
+            "Distances",
+            "File"
+        ],
+        "valid_outputs": [
+            "Select Columns"
+        ],
+        "invalid_outputs": [
+            "Test and Score"
+        ]
+    },
+    {
+        "widget": "As Timeseries",
+        "valid_inputs": [
+            "File",
+            "Yahoo Finance",
+            "Data Table"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Learner"
+        ],
+        "valid_outputs": [
+            "Line Chart",
+            "ARIMA Model",
+            "VAR Model",
+            "Periodogram",
+            "Correlogram",
+            "Seasonal Adjustment"
+        ],
+        "invalid_outputs": [
+            "Tree Viewer",
+            "Word Cloud"
+        ]
+    },
+    {
+        "widget": "ARIMA Model",
+        "valid_inputs": [
+            "As Timeseries",
+            "Yahoo Finance",
+            "Interpolate"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Random Forest",
+            "File"
+        ],
+        "valid_outputs": [
+            "Model Evaluation",
+            "Line Chart"
+        ],
+        "invalid_outputs": [
+            "Scatter Plot",
+            "Distances"
+        ]
+    },
+    {
+        "widget": "Score Cells",
+        "valid_inputs": [
+            "Single Cell Datasets",
+            "Data Table",
+            "k-Means"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Tree Viewer"
+        ],
+        "valid_outputs": [
+            "t-SNE",
+            "Scatter Plot",
+            "Data Table"
+        ],
+        "invalid_outputs": [
+            "Hierarchical Clustering"
+        ]
+    },
+    {
+        "widget": "Venn Diagram",
+        "valid_inputs": [
+            "Select Rows",
+            "Confusion Matrix",
+            "Data Table"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Learner"
+        ],
+        "valid_outputs": [
+            "Data Table",
+            "Scatter Plot",
+            "Corpus Viewer"
+        ],
+        "invalid_outputs": [
+            "Test and Score"
+        ]
+    },
+    {
+        "widget": "Save Model",
+        "valid_inputs": [
+            "Logistic Regression",
+            "Random Forest",
+            "Naive Bayes",
+            "Tree",
+            "SVM"
+        ],
+        "invalid_inputs": [
+            "File",
+            "Data Table",
+            "Distances",
+            "Test and Score"
+        ],
+        "valid_outputs": [],
+        "invalid_outputs": []
+    },
+    {
+        "widget": "Preprocess",
+        "valid_inputs": [
+            "File",
+            "Data Table",
+            "Select Columns",
+            "Corpus"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Distance Matrix",
+            "Test and Score",
+            "Evaluation Results"
+        ],
+        "valid_outputs": [
+            "Logistic Regression",
+            "Random Forest",
+            "Test and Score",
+            "Data Table",
+            "PCA",
+            "Bag of Words"
+        ],
+        "invalid_outputs": [
+            "Distance Map",
+            "Tree Viewer",
+            "Venn Diagram"
+        ]
+    },
+    {
+        "widget": "Confusion Matrix",
+        "valid_inputs": [
+            "Test and Score",
+            "Predictions"
+        ],
+        "invalid_inputs": [
+            "File",
+            "Data Table",
+            "Distances",
+            "Random Forest"
+        ],
+        "valid_outputs": [
+            "Scatter Plot",
+            "Venn Diagram",
+            "Data Table",
+            "Corpus Viewer"
+        ],
+        "invalid_outputs": [
+            "Test and Score",
+            "Predictions",
+            "Save Model"
+        ]
+    },
+    {
+        "widget": "Rank",
+        "valid_inputs": [
+            "File",
+            "Data Table",
+            "Random Forest",
+            "Logistic Regression",
+            "Linear Regression"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Evaluation Results",
+            "Tree Viewer"
+        ],
+        "valid_outputs": [
+            "Data Table",
+            "Select Columns",
+            "Scatter Plot",
+            "Box Plot"
+        ],
+        "invalid_outputs": [
+            "Test and Score",
+            "Predictions",
+            "Save Model"
+        ]
+    },
+    {
+        "widget": "Scatter Plot",
+        "valid_inputs": [
+            "File",
+            "Data Table",
+            "PCA",
+            "MDS",
+            "t-SNE",
+            "Confusion Matrix",
+            "Tree Viewer"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Save Model",
+            "Learner"
+        ],
+        "valid_outputs": [
+            "Data Table",
+            "Save Data",
+            "Venn Diagram",
+            "Select by Data Index"
+        ],
+        "invalid_outputs": [
+            "Test and Score",
+            "Tree Viewer"
+        ]
+    },
+    {
+        "widget": "Select Columns",
+        "valid_inputs": [
+            "File",
+            "Data Table",
+            "Rank",
+            "Nomogram"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Evaluation Results"
+        ],
+        "valid_outputs": [
+            "Data Table",
+            "Learner",
+            "Test and Score",
+            "Scatter Plot"
+        ],
+        "invalid_outputs": [
+            "Distance Map"
+        ]
+    },
+    {
+        "widget": "Word Cloud",
+        "valid_inputs": [
+            "Corpus",
+            "Preprocess Text",
+            "Topic Modelling",
+            "Twitter",
+            "Wikipedia"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "File",
+            "Random Forest"
+        ],
+        "valid_outputs": [
+            "Corpus Viewer",
+            "Concordance",
+            "Save Data"
+        ],
+        "invalid_outputs": [
+            "Test and Score",
+            "Predictions",
+            "Tree Viewer"
+        ]
+    },
+    {
+        "widget": "Topic Modelling",
+        "valid_inputs": [
+            "Corpus",
+            "Preprocess Text",
+            "Bag of Words"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "File",
+            "Data Table"
+        ],
+        "valid_outputs": [
+            "MDS",
+            "Word Cloud",
+            "Data Table",
+            "LDAvis"
+        ],
+        "invalid_outputs": [
+            "Test and Score",
+            "Tree Viewer"
+        ]
+    },
+    {
+        "widget": "GEO Data Sets",
+        "valid_inputs": [],
+        "invalid_inputs": [
+            "File",
+            "Data Table"
+        ],
+        "valid_outputs": [
+            "Differential Expression",
+            "Data Table",
+            "PCA",
+            "Box Plot",
+            "Genes"
+        ],
+        "invalid_outputs": [
+            "Tree Viewer",
+            "Confusion Matrix"
+        ]
+    },
+    {
+        "widget": "Differential Expression",
+        "valid_inputs": [
+            "GEO Data Sets",
+            "dictyExpress",
+            "Genes"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "File"
+        ],
+        "valid_outputs": [
+            "GO Browser",
+            "Data Table",
+            "Volcano Plot",
+            "Heat Map"
+        ],
+        "invalid_outputs": [
+            "Test and Score",
+            "Predictions"
+        ]
+    },
+    {
+        "widget": "Line Chart",
+        "valid_inputs": [
+            "As Timeseries",
+            "Yahoo Finance",
+            "ARIMA Model",
+            "VAR Model",
+            "Moving Transform",
+            "Difference"
+        ],
+        "invalid_inputs": [
+            "File",
+            "Distances",
+            "Random Forest"
+        ],
+        "valid_outputs": [
+            "Data Table",
+            "Save Data"
+        ],
+        "invalid_outputs": [
+            "Tree Viewer",
+            "Confusion Matrix"
+        ]
+    },
+    {
+        "widget": "Moving Transform",
+        "valid_inputs": [
+            "As Timeseries",
+            "Yahoo Finance"
+        ],
+        "invalid_inputs": [
+            "File",
+            "Distances"
+        ],
+        "valid_outputs": [
+            "Line Chart",
+            "Data Table",
+            "Spiralogram"
+        ],
+        "invalid_outputs": [
+            "Tree Viewer"
+        ]
+    },
+    {
+        "widget": "Single Cell Datasets",
+        "valid_inputs": [],
+        "invalid_inputs": [
+            "File"
+        ],
+        "valid_outputs": [
+            "Filter",
+            "Single Cell Preprocess",
+            "Score Cells",
+            "Data Table"
+        ],
+        "invalid_outputs": [
+            "Tree Viewer",
+            "Confusion Matrix"
+        ]
+    },
+    {
+        "widget": "Filter",
+        "valid_inputs": [
+            "Single Cell Datasets",
+            "Load Data"
+        ],
+        "invalid_inputs": [
+            "Distances"
+        ],
+        "valid_outputs": [
+            "Single Cell Preprocess",
+            "PCA",
+            "t-SNE",
+            "Data Table"
+        ],
+        "invalid_outputs": [
+            "Test and Score"
+        ]
+    },
+    {
+        "widget": "Merge Data",
+        "valid_inputs": [
+            "File",
+            "Data Table",
+            "Scatter Plot"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Learner"
+        ],
+        "valid_outputs": [
+            "Data Table",
+            "Scatter Plot",
+            "Save Data"
+        ],
+        "invalid_outputs": [
+            "Test and Score"
+        ]
+    },
+    {
+        "widget": "Pivot Table",
+        "valid_inputs": [
+            "File",
+            "Data Table"
+        ],
+        "invalid_inputs": [
+            "Distances",
+            "Learner"
+        ],
+        "valid_outputs": [
+            "Data Table",
+            "Line Plot",
+            "Bar Plot"
+        ],
+        "invalid_outputs": [
+            "Tree Viewer"
+        ]
+    }
+]
