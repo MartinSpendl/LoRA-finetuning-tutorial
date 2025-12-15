@@ -18,7 +18,7 @@ The tutorial is divided into three parts:
 
 2. **Dataset preparation part**: Covers the first two steps (extracting documentation and formatting widget connections) in a very high level with slides.
 
-3. **Hands-on part**: Covers the third and fourth step (finetuning and evaluation). We will be running the code in the notebooks (separate notebook for demonstration) and scripts provided in the repository. Meanwhile, we will also check the results for other configurations and comment of the results.
+3. **Hands-on part**: Covers the third and fourth step (finetuning and evaluation). We will be running the code in the notebooks (separate notebook for demonstration) and scripts provided in the repository. Meanwhile, we will also check the results for other configurations and comment of the results. To follow along, load the notebook `notebooks/0.0-lora-tutorial.ipynb` in Google Colab and run the cells.
 
 ## Repository Overview
 
