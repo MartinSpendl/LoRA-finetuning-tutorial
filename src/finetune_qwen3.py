@@ -14,6 +14,7 @@ from trl import SFTTrainer
 from argparse import ArgumentParser
 from store_load_results import store_results, load_results
 from evaluation_function import evaluate_model
+from utils import define_model_name
 
 def main(MODEL_CONFIG:dict):
 
@@ -22,25 +23,9 @@ def main(MODEL_CONFIG:dict):
     TESTDATA_MCQ_CON_FILE = os.path.join(os.getcwd(), 'data', 'train_test_dataset', 'orange_qa_MCQ-con_test.jsonl')
 
     # 1. Configuration Setup
-    model_name = MODEL_CONFIG['base_model'].split('/')[-1]
-    if MODEL_CONFIG['finetuning']:
-        model_name += "_" + "_".join([
-        "DoRA" if MODEL_CONFIG['use_dora'] else "LoRA",
-        "".join([x[0] for x in MODEL_CONFIG['lora_projections']]),
-        f"r{MODEL_CONFIG['lora_r']}",
-        f"alpha{MODEL_CONFIG['lora_alpha']}",
-        f"drop{MODEL_CONFIG['lora_dropout']}",
-        f"proj({''.join([x[0] for x in MODEL_CONFIG['lora_projections']])})",
-        f"bs{MODEL_CONFIG['batch_size']}",
-        f"lr{MODEL_CONFIG['lr']}",
-        f"ep{MODEL_CONFIG['n_epochs']}",
-        f"ntinit({MODEL_CONFIG['new_tokens_init']})" if MODEL_CONFIG['new_tokens_path'] is not None else "",
-        f"nttrain" if MODEL_CONFIG['new_tokens_path'] is not None and MODEL_CONFIG['new_tokens_train'] else ""
-    ])
-    MODEL_CONFIG['model_name'] = model_name
-    print("Model Configuration:", MODEL_CONFIG['model_name'])
-    OUTPUT_DIR = os.path.join(os.getcwd(), 'models', MODEL_CONFIG['model_name'])
+    model_name, OUTPUT_DIR = define_model_name(MODEL_CONFIG)
 
+    # 2. Check if model already trained
     alread_trained = False
     try:
         loaded_results = load_results(MODEL_CONFIG)
@@ -55,11 +40,11 @@ def main(MODEL_CONFIG:dict):
 
     if not os.path.exists(OUTPUT_DIR) and MODEL_CONFIG['finetuning']:
 
-        # 2. Load Train Dataset
+        # 3. Load Train Dataset
         print("Loading training dataset from:", TRAINDATA_FILE)
         dataset = load_dataset("json", data_files=TRAINDATA_FILE, split="train")
 
-        # 2. Load Model & Tokenizer
+        # 4. Load Model & Tokenizer
         print("Loading model and tokenizer...")
         tokenizer = AutoTokenizer.from_pretrained(MODEL_CONFIG['base_model'])
         model = AutoModelForCausalLM.from_pretrained(
@@ -69,19 +54,31 @@ def main(MODEL_CONFIG:dict):
             do_sample=False,
         )
 
-        # 4. Extend token library (tokenizer + model)
+        from transformers import AddedToken
+
+        # 5. Extend token library (tokenizer + model)
         if MODEL_CONFIG['new_tokens_path'] is not None:
             print("Adding new tokens from:", MODEL_CONFIG['new_tokens_path'])
             DEFAULT_TOKEN_NUM = len(tokenizer)
 
             with open(MODEL_CONFIG['new_tokens_path'], 'r') as f:
-                new_tokens = json.load(f)
+                new_tokens_text = json.load(f)
+            new_tokens = [
+                AddedToken(token, lstrip=True, rstrip=True)
+                for token in new_tokens_text
+            ]
 
             ## extend tokenizer and model
             print("Number of default tokenizer tokens:", DEFAULT_TOKEN_NUM)
             tokenizer.add_tokens(new_tokens)
             model.resize_token_embeddings(len(tokenizer))
             print("Number of new tokenizer tokens:", len(tokenizer))
+
+            new_tokens_ids = [
+                tokenizer.encode(token)[0]
+                for token in new_tokens_text
+            ]
+            old_tokens_ids = [id for id in range(DEFAULT_TOKEN_NUM) if id not in new_tokens_ids]
 
             ## initialize new token embeddings
             model.model.embed_tokens = model.model.embed_tokens.float()
@@ -104,13 +101,13 @@ def main(MODEL_CONFIG:dict):
             if MODEL_CONFIG['new_tokens_train']:
                 def zero_out_old_token_grads(grad):
                     new_grad = grad.clone()
-                    new_grad[:DEFAULT_TOKEN_NUM, :] = 0.0
+                    new_grad[old_tokens_ids, :] = 0.0
                     return new_grad
                 model.model.embed_tokens.weight.requires_grad = True
                 model.model.embed_tokens.weight.register_hook(zero_out_old_token_grads)
             model.lm_head.weight.requires_grad = True
         
-        # 3. Setup LoRA/DoRA and merge with base model
+        # 6. Setup LoRA/DoRA and merge with base model
         if MODEL_CONFIG['new_tokens_path'] is not None:
             modules_to_save = ["lm_head"] + (["embed_tokens"] if MODEL_CONFIG['new_tokens_train'] else [])
         else:
@@ -128,7 +125,7 @@ def main(MODEL_CONFIG:dict):
         )
         model = get_peft_model(model, peft_config)
 
-        # 4. Train arguments
+        # 7. Train arguments
         # Setup wandb project name (priority: command line arg > environment variable > default)
         wandb_project = MODEL_CONFIG.get('wandb_project') or os.environ.get("WANDB_PROJECT", "qwen3-lora-finetuning")
         wandb_run_name = MODEL_CONFIG['model_name']
@@ -150,7 +147,7 @@ def main(MODEL_CONFIG:dict):
             run_name=wandb_run_name,     # Set run name to model name
         )
 
-        # 5. Initialize Trainer
+        # 8. Initialize Trainer
         trainer = SFTTrainer(
             model=model,
             train_dataset=dataset,
@@ -158,15 +155,16 @@ def main(MODEL_CONFIG:dict):
             processing_class=tokenizer,
         )
 
-        # 6. Start Training
+        # 9. Start Training
         print("Starting training...")
         trainer.train()
 
+        # 10. Save model and tokenizer
         print(f"Saving model to {OUTPUT_DIR}...")
         trainer.model.save_pretrained(OUTPUT_DIR)
         tokenizer.save_pretrained(OUTPUT_DIR)
     
-    # 7. Load model and tokenizer
+    # 11. Load model and tokenizer
     if MODEL_CONFIG['finetuning']:
         tokenizer = AutoTokenizer.from_pretrained(OUTPUT_DIR)
         # Load base model first, then load PEFT adapter
@@ -181,7 +179,7 @@ def main(MODEL_CONFIG:dict):
         model = AutoModelForCausalLM.from_pretrained(MODEL_CONFIG['base_model'], device_map="auto", torch_dtype=torch.float16)
         tokenizer = AutoTokenizer.from_pretrained(MODEL_CONFIG['base_model'], trust_remote_code=True)
 
-    # 8. Evaluate and store results
+    # 12. Evaluate and store results
     with open(TESTDATA_MCQ_FILE, "r") as f:
         test_mcq_dataset = json.load(f)
     accuracy_mcq, se_mcq = evaluate_model(model, tokenizer, test_mcq_dataset, batch_size=MODEL_CONFIG['batch_size'])

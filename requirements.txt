@@ -18,11 +18,8 @@ pandas>=2.0.0
 tqdm>=4.65.0
 
 # Jupyter Notebooks
-jupyter>=1.0.0
-notebook>=7.0.0
-ipywidgets>=8.0.0
+ipykernel
 
-# Experiment Tracking (Optional)
-# Uncomment if you want to use Weights & Biases
-# wandb>=0.15.0
+# Experiment Tracking
+wandb>=0.15.0
 
