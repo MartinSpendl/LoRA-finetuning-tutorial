@@ -1,0 +1,26 @@
+{
+    "base_model": "Qwen/Qwen3-0.6B",
+    "finetuning": true,
+    "use_dora": false,
+    "n_epochs": 15,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lr": 0.0001,
+    "batch_size": 16,
+    "lora_projections": [
+        "q_proj",
+        "v_proj",
+        "k_proj",
+        "o_proj"
+    ],
+    "lora_dropout": 0.05,
+    "new_tokens_path": null,
+    "new_tokens_init": null,
+    "new_tokens_train": null,
+    "wandb_project": null,
+    "model_name": "Qwen3-0.6B_LoRA_qvko_r8_alpha16_drop0.05_proj(qvko)_bs16_lr0.0001_ep20(15)__",
+    "accuracy_mcq": 39.0,
+    "se_mcq": 3.448912872196107,
+    "accuracy_mcq_con": 13.5,
+    "se_mcq_con": 2.4163505540380514
+}

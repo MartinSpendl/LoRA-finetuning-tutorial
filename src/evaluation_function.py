@@ -34,7 +34,7 @@ def evaluate_model(model, tokenizer, dataset, batch_size=32) -> tuple[float, flo
             with torch.no_grad():
                 outputs = model.generate(
                     **inputs, 
-                    max_new_tokens=1000,
+                    max_new_tokens=100,
                     do_sample=False,
                     pad_token_id=tokenizer.eos_token_id
                 )
