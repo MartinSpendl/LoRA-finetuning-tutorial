@@ -1,0 +1,29 @@
+{
+    "base_model": "Qwen/Qwen3-0.6B",
+    "finetuning": true,
+    "use_dora": true,
+    "n_epochs": 5,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lr": 0.0005,
+    "batch_size": 16,
+    "lora_projections": [
+        "q_proj",
+        "v_proj",
+        "k_proj",
+        "o_proj",
+        "gate_proj",
+        "down_proj",
+        "up_proj"
+    ],
+    "lora_dropout": 0.05,
+    "new_tokens_path": null,
+    "new_tokens_init": "random",
+    "new_tokens_train": true,
+    "wandb_project": "Orange-LoRA-tutorial",
+    "model_name": "Qwen3-0.6B_DoRA_qvkogdu_r16_alpha32_drop0.05_proj(qvkogdu)_bs16_lr0.0005_ep5__",
+    "accuracy_mcq": 47.5,
+    "se_mcq": 3.5311117229563833,
+    "accuracy_mcq_con": 55.5,
+    "se_mcq_con": 3.514078826662828
+}

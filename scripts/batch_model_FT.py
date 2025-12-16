@@ -166,6 +166,132 @@ CONFIGURATIONS = [
         "lora_r": 32,
         "lora_alpha": 64,
     },
+    ## Configuration LoRA/DoRA with token injection (zero, random, average) - for 5 epochs
+    {
+        "new_tokens_path": "data/injected_tokens.json",
+        "new_tokens_init": "zero",
+        "new_tokens_train": True,
+    },
+    {
+        "new_tokens_path": "data/injected_tokens.json",
+        "new_tokens_init": "random",
+        "new_tokens_train": True,
+    },
+    {
+        "new_tokens_path": "data/injected_tokens.json",
+        "new_tokens_init": "average",
+        "new_tokens_train": True,
+    },
+    {
+        "new_tokens_path": "data/injected_tokens.json",
+        "new_tokens_init": "average",
+        "new_tokens_train": False,
+    },
+    {
+        "new_tokens_path": "data/injected_tokens.json",
+        "new_tokens_init": "zero",
+        "new_tokens_train": True,
+        "use_dora": False,
+    },
+    {
+        "new_tokens_path": "data/injected_tokens.json",
+        "new_tokens_init": "random",
+        "new_tokens_train": True,
+        "use_dora": False,
+    },
+    {
+        "new_tokens_path": "data/injected_tokens.json",
+        "new_tokens_init": "average",
+        "new_tokens_train": True,
+        "use_dora": False,
+    },
+    {
+        "new_tokens_path": "data/injected_tokens.json",
+        "new_tokens_init": "average",
+        "new_tokens_train": False,
+        "use_dora": False,
+    },
+    ## Configuration for Qwen3-0.6B with LoRA and Dora (qvko) - for 20 epochs
+    {
+        "use_dora": False,
+        "lora_projections": "qvko",
+        "lora_r": LORA_R,
+        "lora_alpha": LORA_ALPHA,
+        "n_epochs": 20,
+    },
+    {
+        "use_dora": True,
+        "lora_projections": "qvko",
+        "lora_r": LORA_R,
+        "lora_alpha": LORA_ALPHA,
+        "n_epochs": 20,
+    },
+    {
+        "use_dora": False,
+        "lora_projections": "qvko",
+        "lora_r": LORA_R,
+        "lora_alpha": LORA_ALPHA,
+        "n_epochs": 20,
+        "lr": 1e-4,
+    },
+    {
+        "use_dora": True,
+        "lora_projections": "qvko",
+        "lora_r": LORA_R,
+        "lora_alpha": LORA_ALPHA,
+        "n_epochs": 20,
+        "lr": 1e-4,
+    },
+    ## Configuration for Qwen3-0.6B with LoRA and Dora (qvko) - 4/2, 4/4, 4/8, 4/16
+    {
+        "use_dora": False,
+        "lora_projections": "qvko",
+        "lora_r": 4,
+        "lora_alpha": 2,
+    },
+    {
+        "use_dora": False,
+        "lora_projections": "qvko",
+        "lora_r": 4,
+        "lora_alpha": 4,
+    },
+    {
+        "use_dora": False,
+        "lora_projections": "qvko",
+        "lora_r": 4,
+        "lora_alpha": 8,
+    },
+    {
+        "use_dora": False,
+        "lora_projections": "qvko",
+        "lora_r": 4,
+        "lora_alpha": 16,
+    },
+    {
+        "use_dora": True,
+        "lora_projections": "qvko",
+        "lora_r": 4,
+        "lora_alpha": 2,
+    },
+    {
+        "use_dora": True,
+        "lora_projections": "qvko",
+        "lora_r": 4,
+        "lora_alpha": 4,
+    },
+    {
+        "use_dora": True,
+        "lora_projections": "qvko",
+        "lora_r": 4,
+        "lora_alpha": 8,
+    },
+    {
+        "use_dora": True,
+        "lora_projections": "qvko",
+        "lora_r": 4,
+        "lora_alpha": 16,
+    },  
+
 ]
 CONFIGURATIONS = [BASE_CONFIG | config for config in CONFIGURATIONS]
 

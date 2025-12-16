@@ -63,6 +63,7 @@ def main(MODEL_CONFIG:dict):
 
             with open(MODEL_CONFIG['new_tokens_path'], 'r') as f:
                 new_tokens_text = json.load(f)
+            new_token_tokenized = [tokenizer.encode(token) for token in new_tokens_text]
             new_tokens = [
                 AddedToken(token, lstrip=True, rstrip=True)
                 for token in new_tokens_text
@@ -85,13 +86,12 @@ def main(MODEL_CONFIG:dict):
 
             if MODEL_CONFIG['new_tokens_init'] == "average":
                 with torch.no_grad():
-                    existing_embeddings = model.model.embed_tokens.weight[:DEFAULT_TOKEN_NUM, :]
-                    average_embedding = existing_embeddings.mean(dim=0)
-                    for i in range(DEFAULT_TOKEN_NUM, len(tokenizer)):
-                        model.model.embed_tokens.weight[i, :] = average_embedding
+                    existing_embeddings = model.model.embed_tokens.weight
+                    for new_id, previous_token_ids in zip(new_tokens_ids, new_token_tokenized):
+                        model.model.embed_tokens.weight[new_id, :] = existing_embeddings[previous_token_ids].mean(dim=0)
             elif MODEL_CONFIG['new_tokens_init'] == "zero":
                 with torch.no_grad():
-                    model.model.embed_tokens[DEFAULT_TOKEN_NUM:, :].fill_(0.0)
+                    model.model.embed_tokens.weight[new_tokens_ids, :].fill_(0.0)
             elif MODEL_CONFIG['new_tokens_init'] == "random":
                 pass  # already quazi randomly initialized
             else:
